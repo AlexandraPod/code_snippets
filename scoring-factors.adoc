@@ -1,0 +1,2023 @@
+== Скор-факторы первой антифрод воронки
+
+*Скор-факторы перечислены в том же порядке, в котором они должны передаваться в ML-модель*
+
+[width="100%"]
+|====================
+|<<JS_4,JS_4 / TIME_ON_PAGE>>
+|<<RD_3,RD_3 / CHECK_CARD_HOLDER_NAME>>
+|<<JS_3,JS_3 / SAME_PHONE>>
+|<<RD_1,RD_1 / AGE>>
+|<<JS_2,JS_2 / SINGLE_CLICK>>
+|<<JS_7,JS_7 / DEVICE_QUALITY>>
+|<<JS_11,JS_11 / DEV_AGEING_W_U>>
+|<<JS_12,JS_12 / PHONES_NUMBER>>
+|<<JS_13,JS_13 / IDX8_DCV>>
+|<<JS_16,JS_16 / IP_SIM_REGIONS_MATCH>>
+|====================
+
+
+== Скор-факторы второй антифрод воронки
+
+*Скор-факторы перечислены в том же порядке, в котором они должны передаваться в ML-модель*
+
+[width="100%"]
+|====================
+|<<JS_4,JS_4 / TIME_ON_PAGE>>
+|<<RD_3,RD_3 / CHECK_CARD_HOLDER_NAME>>
+|<<JS_3,JS_3 / SAME_PHONE>>
+|<<RD_1,RD_1 / AGE>>
+|<<JS_2,JS_2 / SINGLE_CLICK>>
+|<<JS_7,JS_7 / DEVICE_QUALITY>>
+|<<JS_11,JS_11 / DEV_AGEING_W_U>>
+|<<JS_12,JS_12 / PHONES_NUMBER>>
+|<<JS_13,JS_13 / IDX8_DCV>>
+|<<JS_16,JS_16 / IP_SIM_REGIONS_MATCH>>
+|<<MF_3,MF_3 / LIFETIME_BIN>>
+|<<NBCH_161,NBCH_161 / RATIO_DELAY_LOAN_NEW>>
+|<<NBCH_160,NBCH_160 / RATIO_END_LOAN_WITHOUT_DELAY>>
+|<<NBCH_165,NBCH_165 / SUM_OVERDUE_LOAN_TO_ALL>>
+|<<NBCH_13,NBCH_13 / PL_LOAN>>
+|<<NBCH_159,NBCH_159 / RATIO_PROBLEM_LOAN>>
+|<<NBCH_167,NBCH_167 / RATIO_END_LOAN>>
+|<<MF_9,MF_9 / PAY_MAX>>
+
+|====================
+
+== Скор-факторы первой скор-воронки для первичников
+
+*Скор-факторы перечислены в том же порядке, в котором они должны передаваться в ML-модель*
+
+[width="100%"]
+|====================
+|<<RD_14,RD_14 / CHILDREN>>
+|<<RD_15,RD_15 / EDUCATION>>
+|<<RD_17,RD_17 / MARITAL_STATUS>>
+|<<RD_18,RD_18 / SECTOR>>
+|<<RD_19,RD_19 / FACTREGION>>
+|<<RD_13,RD_13 / TYPE_DEVICE>>
+|<<RD_12,RD_12 / OPERATOR>>
+|<<RD_16,RD_16 / INCOME>>
+|<<RD_1,RD_1 / AGE>>
+|<<RD_11,RD_11 / SEX>>
+|<<RD_20,RD_20 / LOAN_AMOUNT_START>>
+|<<NBCH_8,NBCH_8 / COUNT_DELAY_LOAN>>
+|<<NBCH_9,NBCH_9 / COUNT_END_LOAN>>
+|<<NBCH_10,NBCH_10 / COUNT_END_LOAN_WITH_DELAY>>
+|<<NBCH_11,NBCH_11 / COUNT_END_LOAN_WITHOUT_DELAY>>
+|<<NBCH_12,NBCH_12 / SUM_OVERDUE_LOAN>>
+|<<NBCH_13,NBCH_13 / PL_LOAN>>
+|<<NBCH_14,NBCH_14 / PL_END_LOAN>>
+|<<NBCH_15,NBCH_15 / MAX_DELAY_PERIOD_LOAN>>
+|<<NBCH_16,NBCH_16 / COUNT_LOAN_3_DAYS>>
+|<<NBCH_17,NBCH_17 / COUNT_LOAN_10_DAYS>>
+|<<NBCH_18,NBCH_18 / COUNT_LOAN_30_DAYS>>
+|<<NBCH_19,NBCH_19 / COUNT_DELAY30_LOAN>>
+|<<NBCH_20,NBCH_20 / COUNT_DELAY60_LOAN>>
+|<<NBCH_21,NBCH_21 / COUNT_DELAY90_LOAN>>
+|<<NBCH_22,NBCH_22 / COUNT_DELAY_MORE_LOAN>>
+|<<NBCH_23,NBCH_23 / COUNT_ACT_CREDCARD>>
+|<<NBCH_24,NBCH_24 / DEBT_ACT_CREDCARD>>
+|<<NBCH_25,NBCH_25 / SUM_OVERDUE_CREDCARD>>
+|<<NBCH_26,NBCH_26 / CREDCARD_LIMIT_BALANS>>
+|<<NBCH_27,NBCH_27 / PAYS_0_DELAY_CREDCARD>>
+|<<NBCH_28,NBCH_28 / PAYS_A_DELAY_CREDCARD>>
+|<<NBCH_29,NBCH_29 / PAYS_2_DELAY_CREDCARD>>
+|<<NBCH_30,NBCH_30 / PAYS_3_DELAY_CREDCARD>>
+|<<NBCH_31,NBCH_31 / PAYS_4_DELAY_CREDCARD>>
+|<<NBCH_32,NBCH_32 / PAYS_5_DELAY_CREDCARD>>
+|<<NBCH_33,NBCH_33 / PAYS_9_DELAY_CREDCARD>>
+|<<NBCH_34,NBCH_34 / COUNT_END_POTREB>>
+|<<NBCH_35,NBCH_35 / SUM_OVERDUE_POTREB>>
+|<<NBCH_36,NBCH_36 / PAYS_0_DELAY_POTREB>>
+|<<NBCH_37,NBCH_37 / PAYS_A_DELAY_POTREB>>
+|<<NBCH_38,NBCH_38 / PAYS_2_DELAY_POTREB>>
+|<<NBCH_39,NBCH_39 / PAYS_3_DELAY_POTREB>>
+|<<NBCH_40,NBCH_40 / PAYS_4_DELAY_POTREB>>
+|<<NBCH_41,NBCH_41 / PAYS_5_DELAY_POTREB>>
+|<<NBCH_42,NBCH_42 / PAYS_9_DELAY_POTREB>>
+|<<NBCH_43,NBCH_43 / COUNT_7_DAYS>>
+|<<NBCH_44,NBCH_44 / COUNT_14_DAYS>>
+|<<NBCH_45,NBCH_45 / COUNT_21_DAYS>>
+|<<NBCH_46,NBCH_46 / COUNT_30_DAYS>>
+|<<NBCH_47,NBCH_47 / COUNT_60_DAYS>>
+|<<NBCH_48,NBCH_48 / COUNT_90_DAYS>>
+|<<NBCH_49,NBCH_49 / COUNT_180_DAYS>>
+|<<NBCH_50,NBCH_50 / COUNT_365_DAYS>>
+|<<NBCH_51,NBCH_51 / COUNT_MORE_DAYS>>
+|<<NBCH_52,NBCH_52 / DEL30MFO>>
+|<<NBCH_53,NBCH_53 / DEL60MFO>>
+|<<NBCH_54,NBCH_54 / DEL30CRED>>
+|<<NBCH_55,NBCH_55 / DEL60CRED>>
+|<<NBCH_56,NBCH_56 / SUMOVERDUE>>
+|<<NBCH_57,NBCH_57 / AMOUNTCLOSMFO>>
+|<<NBCH_58,NBCH_58 / AMOUNTCLOSCRED>>
+|<<NBCH_59,NBCH_59 / CURDEFMFO>>
+|<<NBCH_60,NBCH_60 / CURDEFCRED>>
+|<<NBCH_61,NBCH_61 / CURWODEFCRED>>
+|<<NBCH_62,NBCH_62 / CURDEF30MFO>>
+|<<NBCH_63,NBCH_63 / CURDEF30CRED>>
+|<<NBCH_64,NBCH_64 / MAX_SUM_INQ_P7>>
+|<<NBCH_65,NBCH_65 / MAX_SUM_INQ_P14>>
+|<<NBCH_66,NBCH_66 / MAX_SUM_INQ_P21>>
+|<<NBCH_67,NBCH_67 / MAX_SUM_INQ_P30>>
+|<<NBCH_68,NBCH_68 / MAX_SUM_INQ_P60>>
+|<<NBCH_69,NBCH_69 / MAX_SUM_INQ_P90>>
+|<<NBCH_70,NBCH_70 / MAX_SUM_INQ_P180>>
+|<<NBCH_71,NBCH_71 / MAX_SUM_INQ_P365>>
+|<<NBCH_72,NBCH_72 / MAX_SUM_INQ_P999>>
+|<<NBCH_73,NBCH_73 / MAX_SUM_INQ_30>>
+|<<NBCH_74,NBCH_74 / MAX_SUM_INQ_90>>
+|<<NBCH_75,NBCH_75 / MAX_SUM_INQ_180>>
+|<<NBCH_76,NBCH_76 / MAX_SUM_INQ_999>>
+|<<NBCH_77,NBCH_77 / MAX_INQ_CARD>>
+|<<NBCH_78,NBCH_78 / MAX_INQ_CUNSUM>>
+|<<NBCH_79,NBCH_79 / MAX_INQ_MFO>>
+|<<NBCH_80,NBCH_80 / MAX_INQ_UNKNOWN>>
+|<<NBCH_81,NBCH_81 / COUNT_INQ_P7>>
+|<<NBCH_82,NBCH_82 / COUNT_INQ_P14>>
+|<<NBCH_83,NBCH_83 / COUNT_INQ_P21>>
+|<<NBCH_84,NBCH_84 / COUNT_INQ_P30>>
+|<<NBCH_85,NBCH_85 / COUNT_INQ_P60>>
+|<<NBCH_86,NBCH_86 / COUNT_INQ_P90>>
+|<<NBCH_87,NBCH_87 / COUNT_INQ_P180>>
+|<<NBCH_88,NBCH_88 / COUNT_INQ_P365>>
+|<<NBCH_89,NBCH_89 / COUNT_INQ_P999>>
+|<<NBCH_90,NBCH_90 / COUNT_INQ_30>>
+|<<NBCH_91,NBCH_91 / COUNT_INQ_90>>
+|<<NBCH_92,NBCH_92 / COUNT_INQ_180>>
+|<<NBCH_93,NBCH_93 / COUNT_INQ_365>>
+|<<NBCH_94,NBCH_94 / COUNT_INQ_999>>
+|<<NBCH_95,NBCH_95 / COUNT_INQ_CARD>>
+|<<NBCH_96,NBCH_96 / COUNT_INQ_CUNSUM>>
+|<<NBCH_97,NBCH_97 / COUNT_INQ_MFO>>
+|<<NBCH_98,NBCH_98 / COUNT_INQ_UNKNOWN>>
+|<<NBCH_99,NBCH_99 / COUNT_ID>>
+|<<NBCH_100,NBCH_100 / COUNT_MFO>>
+|<<NBCH_101,NBCH_101 / COUNT_ZERO_PAYMENT>>
+|<<NBCH_102,NBCH_102 / ALL_CASH>>
+|<<NBCH_103,NBCH_103 / AVG_PAYLIM_CLOSED>>
+|<<NBCH_104,NBCH_104 / AVG_PAYLIM_ACTIVE>>
+|<<NBCH_105,NBCH_105 / COUNT_BIGPL>>
+|<<NBCH_106,NBCH_106 / MAX_DELAY_ACTIVE>>
+|<<NBCH_107,NBCH_107 / MAX_DELAY_ALL>>
+|<<NBCH_108,NBCH_108 / COUNT_GOOD_CRED>>
+|<<NBCH_109,NBCH_109 / SUM_DELAY_PAY>>
+|<<NBCH_110,NBCH_110 / COUNT_DELAY_CRED>>
+|<<NBCH_111,NBCH_111 / COUNT_5_PAYMENTS>>
+|<<NBCH_112,NBCH_112 / COUNT_ACTIVE_CARD>>
+|<<NBCH_113,NBCH_113 / COUNT_ACTIVE_MFO>>
+|<<NBCH_114,NBCH_114 / COUNT_ACTIVE_CRED>>
+|<<NBCH_115,NBCH_115 / MAX_CRED>>
+|<<NBCH_116,NBCH_116 / MIN_CRED>>
+|<<NBCH_117,NBCH_117 / COUNT_OPENP30>>
+|<<NBCH_118,NBCH_118 / COUNT_OPENP365>>
+|<<NBCH_119,NBCH_119 / COUNT_OPEN180>>
+|<<NBCH_120,NBCH_120 / COUNT_OPEN365>>
+|<<NBCH_121,NBCH_121 / KI_LIFETIME>>
+|<<NBCH_122,NBCH_122 / LAST_CRED_STATUS>>
+|<<NBCH_123,NBCH_123 / FIRST_DELAY_PAY>>
+|<<NBCH_124,NBCH_124 / COUNT_ACTIVE>>
+|<<NBCH_125,NBCH_125 / SUM_ACTIVE>>
+|<<NBCH_126,NBCH_126 / PART_0_CRED>>
+|<<NBCH_127,NBCH_127 / SUM_ALL_PAYMENTS>>
+|<<NBCH_128,NBCH_128 / SUM_BAD_CRED_LIM>>
+|<<NBCH_129,NBCH_129 / SUM_BAD_CRED_PAYMENTS>>
+|<<NBCH_130,NBCH_130 / COUNT_0_PAYMENTS>>
+|<<NBCH_131,NBCH_131 / COUNT_1_PAYMENTS>>
+|<<NBCH_132,NBCH_132 / COUNT_A_PAYMENTS>>
+|<<NBCH_133,NBCH_133 / COUNT_2_PAYMENTS>>
+|<<NBCH_134,NBCH_134 / COUNT_3_PAYMENTS>>
+|<<NBCH_135,NBCH_135 / COUNT_4_PAYMENTS>>
+|<<NBCH_136,NBCH_136 / COUNT_7_PAYMENTS>>
+|<<NBCH_137,NBCH_137 / COUNT_9_PAYMENTS>>
+|<<NBCH_138,NBCH_138 / COUNT_X_PAYMENTS>>
+|<<NBCH_139,NBCH_139 / COUNT_BIG_CRED>>
+|<<NBCH_140,NBCH_140 / PL_BIG_CRED>>
+|<<NBCH_141,NBCH_141 / LIFETIME_BIG_CRED>>
+|<<NBCH_142,NBCH_142 / BIG_TO_ALL>>
+|<<NBCH_143,NBCH_143 / COUNT_SMALL_CRED>>
+|<<NBCH_144,NBCH_144 / PL_SMALL_CRED>>
+|<<NBCH_145,NBCH_145 / LIFETIME_SMALL_CRED>>
+|<<NBCH_146,NBCH_146 / PART_SMALL_CRED>>
+
+|====================
+
+== Скор-факторы второй скор-воронки для первичников
+
+*Скор-факторы перечислены в том же порядке, в котором они должны передаваться в ML-модель*
+
+
+[width="100%"]
+|====================
+|<<NBCH_SC_1, NBCH_SC_1 / SCORE_PDL_V2>>
+|<<AGG_2,AGG_2 / LAS_TO_MAX_CRED>>
+|<<NBCH_115,NBCH_115 / MAX_CRED>>
+|<<MAIL_1,MAIL_1 / MAIL>>
+|<<KIWI_1,KIWI_1 / KIWI_SCORE>>
+|<<BLN_1,BLN_1 / BEELINE>>
+|<<NBCH_113,NBCH_113 / COUNT_ACTIVE_MFO>>
+|<<RD_1,RD_1 / AGE>>
+|<<NBCH_145,NBCH_145 / LIFETIME_SMALL_CRED>>
+|<<NBCH_125,NBCH_125 / SUM_ACTIVE>>
+|<<MF_10,MF_10 / SCORE_MF>>
+|<<NBCH_97,NBCH_97 / COUNT_INQ_MFO>>
+|<<NBCH_108,NBCH_108 / COUNT_GOOD_CRED>>
+|<<NBCH_57,NBCH_57 / AMOUNTCLOSMFO>>
+|<<RD_4,RD_4 / ESIA_V2>>
+|<<NBCH_64,NBCH_64 / MAX_SUM_INQ_P7>>
+|<<RD_11,RD_11 / SEX>>
+|<<NBCH_109,NBCH_109 / SUM_DELAY_PAY>>
+|<<NBCH_103,NBCH_103 / AVG_PAYLIM_CLOSED>>
+|<<NBCH_121,NBCH_121 / KI_LIFETIME>>
+|<<NBCH_120,NBCH_120 / COUNT_OPEN365>>
+|<<NBCH_84,NBCH_84 / COUNT_INQ_P30>>
+|<<NBCH_89,NBCH_89 / COUNT_INQ_P999>>
+|<<NBCH_81,NBCH_81 / COUNT_INQ_P7>>
+|<<NBCH_179,NBCH_179 / COUNT_1_PAYMENTS_V2>>
+|<<RD_15,RD_15 / EDUCATION>>
+|<<AGG_1,AGG_1 / K_INCOME>>
+|<<NBCH_66,NBCH_66 / MAX_SUM_INQ_P21>>
+|<<NBCH_104,NBCH_104 / AVG_PAYLIM_ACTIVE>>
+|<<NBCH_59,NBCH_59 / CURDEFMFO>>
+|<<NBCH_122,NBCH_122 / LAST_CRED_STATUS>>
+|<<NBCH_85,NBCH_85 / COUNT_INQ_P60>>
+|<<MF_11,MF_11 / NO_JOB_SCORE>>
+|<<RD_18,RD_18 / SECTOR>>
+|<<NBCH_128,NBCH_128 / SUM_BAD_CRED_LIM>>
+|<<NBCH_118,NBCH_118 / COUNT_OPENP365>>
+|<<NBCH_92,NBCH_92 / COUNT_INQ_180>>
+|<<NBCH_114,NBCH_114 / COUNT_ACTIVE_CRED>>
+|<<NBCH_68,NBCH_68 / MAX_SUM_INQ_P60>>
+|<<MF_3,MF_3 / LIFETIME_BIN>>
+|<<NBCH_91,NBCH_91 / COUNT_INQ_90>>
+|<<NBCH_182,NBCH_182 / COUNT_X_PAYMENTS_V2>>
+|<<NBCH_140,NBCH_140 / PL_BIG_CRED>>
+|<<NBCH_143,NBCH_143 / COUNT_SMALL_CRED>>
+|<<NBCH_52,NBCH_52 / DEL30MFO>>
+|<<NBCH_53,NBCH_53 / DEL60MFO>>
+|<<NBCH_90,NBCH_90 / COUNT_INQ_30>>
+|<<NBCH_54,NBCH_54 / DEL30CRED>>
+|<<NBCH_88,NBCH_88 / COUNT_INQ_P365>>
+|<<NBCH_56,NBCH_56 / SUMOVERDUE>>
+|<<NBCH_70,NBCH_70 / MAX_SUM_INQ_P180>>
+|<<NBCH_58,NBCH_58 / AMOUNTCLOSCRED>>
+|<<NBCH_100,NBCH_100 / COUNT_MFO>>
+|<<NBCH_102,NBCH_102 / ALL_CASH>>
+|<<NBCH_79,NBCH_79 / MAX_INQ_MFO>>
+|<<NBCH_119,NBCH_119 / COUNT_OPEN180>>
+|<<NBCH_127,NBCH_127 / SUM_ALL_PAYMENTS>>
+|<<NBCH_144,NBCH_144 / PL_SMALL_CRED>>
+|<<RD_17,RD_17 / MARITAL_STATUS>>
+|<<RD_19,RD_19 / FACTREGION>>
+|<<NBCH_117,NBCH_117 / COUNT_OPENP30>>
+|<<RD_12,RD_12 / OPERATOR>>
+|<<NBCH_8,NBCH_8 / COUNT_DELAY_LOAN>>
+|<<NBCH_183,NBCH_183 / COUNT_0_PAYMENTS_V2>>
+|<<NBCH_112,NBCH_112 / COUNT_ACTIVE_CARD>>
+|<<NBCH_126,NBCH_126 / PART_0_CRED>>
+|<<NBCH_31,NBCH_31 / PAYS_4_DELAY_CREDCARD>>
+|<<NBCH_146,NBCH_146 / PART_SMALL_CRED>>
+|<<NBCH_98,NBCH_98 / COUNT_INQ_UNKNOWN>>
+|<<NBCH_99,NBCH_99 / COUNT_ID>>
+|<<NBCH_78,NBCH_78 / MAX_INQ_CUNSUM>>
+|<<NBCH_141,NBCH_141 / LIFETIME_BIG_CRED>>
+|<<NBCH_71,NBCH_71 / MAX_SUM_INQ_P365>>
+|<<NBCH_82,NBCH_82 / COUNT_INQ_P14>>
+|<<NBCH_142,NBCH_142 / BIG_TO_ALL>>
+|<<NBCH_181,NBCH_181 / COUNT_9_PAYMENTS_V2>>
+|<<NBCH_96,NBCH_96 / COUNT_INQ_CUNSUM>>
+|<<NBCH_185,NBCH_185 / MAX_SUM_INQ_999_V2>>
+|<<NBCH_184,NBCH_184 / MAX_SUM_INQ_30_V2>>
+|<<NBCH_129,NBCH_129 / SUM_BAD_CRED_PAYMENTS>>
+|<<NBCH_107,NBCH_107 / MAX_DELAY_ALL>>
+|<<NBCH_116,NBCH_116 / MIN_CRED>>
+|<<NBCH_55,NBCH_55 / DEL60CRED>>
+|<<NBCH_69,NBCH_69 / MAX_SUM_INQ_P90>>
+|<<NBCH_40,NBCH_40 / PAYS_4_DELAY_POTREB>>
+|<<NBCH_24,NBCH_24 / DEBT_ACT_CREDCARD>>
+|<<NBCH_180,NBCH_180 / COUNT_A_PAYMENTS_V2>>
+|<<NBCH_28,NBCH_28 / PAYS_A_DELAY_CREDCARD>>
+|<<NBCH_123,NBCH_123 / FIRST_DELAY_PAY>>
+|<<NBCH_186,NBCH_186 / COUNT_INQ_365_V2>>
+|<<NSPK_1,NSPK_1 / NSPK_SCORE>>
+|<<EQ_SC_1,EQ_SC_1 / EQUIFAX_SCORE_V2>>
+|====================
+
+
+== Скор-факторы скор-воронки для повторников
+
+Скор-факторы перечислены в том же порядке, в котором они должны передаваться в ML-модель.
+
+Пользовательские скор-факторы, и скор-факторы рассчитываемые на стороне Вебзайм не описаны
+
+[width="100%"]
+|====================
+|<<WZCH_5,WZCH_5 / MAX_DELAY_LAST>>
+|<<NBCH_159,NBCH_159 / RATIO_PROBLEM_LOAN>>
+|<<NBCH_160,NBCH_160 / RATIO_END_LOAN_WITHOUT_DELAY>>
+|<<WZCH_41, WZCH_41 / AVG_LOAN
+|<<NBCH_161,NBCH_161 / RATIO_DELAY_LOAN_NEW>>
+| PAT_NOT_REC
+|<<RD_15,RD_15 / EDUCATION>>
+|<<NBCH_168,NBCH_168 / RATIO_ACT_LOAN_NO_PAYM>>
+|<<NBCH_13,NBCH_13 / PL_LOAN>>
+|<<WZCH_27,WZCH_27 / RATIO_DELAY>>
+|PAY_NOT_REC_PROC
+|RATIO_ALLDELAY_CL_CNT
+|<<NBCH_169,NBCH_169 / RATIO_MFO_ISS_DUE_30DAYS>>
+|<<WZCH_7,WZCH_7 / COUNT_DELAY_LAST>>
+|<<NBCH_15,NBCH_15 / MAX_DELAY_PERIOD_LOAN>>
+|TIME_BETWEEN_LAST_LOAN_V2
+|<<NBCH_12,NBCH_12 / SUM_OVERDUE_LOAN>>
+|INCOME_V2
+|CONTIN_PREV_LOAN_V2
+|<<NBCH_188,NBCH_188 / AVG_LOAN_TIME>>
+|<<NBCH_170,NBCH_170 / OVER_CRED_WITHOUT_MORTGAGE>>
+|<<NBCH_171,NBCH_171 / RATIO_DELAY60_LOAN>>
+|<<WZCH_4,WZCH_4 / LTV_LAST>>
+|<<NBCH_172,NBCH_172 / COUNT_PROBLEM_LOAN>>
+|<<NBCH_173,NBCH_173 / COUNT_ACT_LOAN_NO_PAYM>>
+|CLOSE_COUNT_90_V2
+|<<NBCH_56,NBCH_56 / SUMOVERDUE>>
+|<<RD_1,RD_1 / AGE>>
+|<<NBCH_165,NBCH_165 / SUM_OVERDUE_LOAN_TO_ALL>>
+|<<NBCH_167,NBCH_167 / RATIO_END_LOAN>>
+|RATIO_WITHOUT_DEL_CL_CNT
+|RATIO_CLOSE_COUNT_3_7
+|<<NBCH_24,NBCH_24 / DEBT_ACT_CREDCARD>>
+|<<NBCH_60,NBCH_60 / CURDEFCRED>>
+|<<NBCH_174,NBCH_174 / RATIO_END_LOAN_WITH_DELAY>>
+|<<NBCH_175,NBCH_175 / AVG_AMT_MFO_DUE_30DAYS>>
+|<<NBCH_54,NBCH_54 / DEL30CRED>>
+|<<NBCH_176,NBCH_176 / CNT_MFO_ISS_DUE_30DAYS>>
+|<<NBCH_59,NBCH_59 / CURDEFMFO>>
+|<<NBCH_52,NBCH_52 / DEL30MFO>>
+|<<NBCH_14,NBCH_14 / PL_END_LOAN>>
+|<<NBCH_43,NBCH_43 / COUNT_7_DAYS>>
+|<<NBCH_47,NBCH_47 / COUNT_60_DAYS>>
+|LAST_DEMAND_TRY
+|<<NBCH_61,NBCH_61 / CURWODEFCRED>>
+|<<NBCH_27,NBCH_27 / PAYS_0_DELAY_CREDCARD>>
+|<<NBCH_53,NBCH_53 / DEL60MFO>>
+|<<NBCH_44,NBCH_44 / COUNT_14_DAYS>>
+|AVG_TERM_USE_V2
+|<<NBCH_177,NBCH_177 / RATIO_DELAY30_LOAN>>
+|<<NBCH_46,NBCH_46 / COUNT_30_DAYS>>
+|<<WZCH_34,WZCH_34 / COUNT_EXTENSION_LAST>>
+|<<WZCH_40,WZCH_40 / COUNT_DEMAND_TRY_ERROR>>
+|CLOSE_COUNT_V4
+|CLOSE_COUNT_30_V2
+|<<NBCH_51,NBCH_51 / COUNT_MORE_DAYS>>
+|<<RD_18,RD_18 / SECTOR>>
+|<<NBCH_158,NBCH_158 / COUNT_MORE_DAYS_POTREB>>
+|<<WZCH_18,WZCH_18 / LTV>>
+|<<NBCH_187,NBCH_187 / MIN_SUM_ACTIVE_POTREB_CRED>>
+|<<NBCH_45,NBCH_45 / COUNT_21_DAYS>>
+|<<WZCH_8,WZCH_8 / DAYS_AFTER_CLOSE_FIRST_LOAN>>
+|<<RD_19,RD_19 / FACTREGION>>
+|<<NBCH_161,NBCH_161 / RATIO_DELAY_LOAN_NEW>>
+|PH_OPERATOR
+|CLOSE_COUNT_3_7
+|CARD_CHANGE_CNT
+|PASSWORD_CHANGE
+|<<NBCH_8,NBCH_8 / COUNT_DELAY_LOAN>>
+|RRA_14
+|LAS_14
+
+|====================
+
+== Правила расчета скор-факторов по анкетным данным
+
+[width="100%",options="header"]
+|====================
+|Название|SQL-название|Описание правила|Тип данных|Описание расчета
+
+|[[RD_1]]RD_1
+|AGE
+|Возраст заёмщика
+|int64
+|Разница в днях между датой рождения клиента (birthDate) и датой создания заявки в системе(applicationCreated), деленная нацело на 365. Default - '-9000'
+
+|[[RD_3]]RD_3
+|CHECK_CARD_HOLDER_NAME
+|Проверка совпадения ФИ с cardHolderName по дистанции Левенштейна
+|float64
+a|Берем ФИ по Анкете - "nameFirst (пробел) nameLast", производим транслитерацию в след. виде:
+
+'ВИЙ'='VY','ГИЙ',='GY','ДИЙ'='DY','НИЙ'='NY','СИЙ'='SY','ТИЙ'='TY','ЖД'='ZD','АЙ'='AY','ЕЙ'='EY','ЁЙ'='EY','ИЙ'='IY','ИЯ'='IA','ОЙ'='OY','ЫЙ'='YY','УЙ'='UY',
+'ЭЙ'='EY','ЬЯ'='IA','ЬЕ'='YE','ЬЁ'=,'YE','ЬА'='IA','ЬИ'='YI','ЬО'='YO','ЬУ'='YU','ЬЫ'='YY','ЬЭ'='YE','ЬЮ'='YU','ЮЙ'='YUY','ЯЙ'='YAY','ЛЮ'='LIU','КС'='X',
+'Ж'='ZH','Х'='KH','Ц'='TS','Ч'='CH','Щ'='SH','Ш'='SH','Ю'='YU','Я'='YA','Ъ'='','Ь'='','АБВГДЕЗИЙКЛМНОПРСТУФЫЭ'='ABVGDEZIYKLMNOPRSTUFYE')
+
+Возвращаем расстояние Левенштейна между транслитерированной ФИ по Анкете и cardHolderName.
+
+Default - '-9000'
+
+|[[RD_4]]RD_4
+|ESIA_V2
+|ЕСИА (зарегистрировался ли клиент через Госуслуги)
+|float64
+|1 - если поле esia > 0, 0 - в противном случае. Default - '-9000'
+
+|[[RD_11]]RD_11
+|SEX
+|Пол заёмщика
+|int64
+|0- если женский,
+
+1- в другом случае.
+
+|[[RD_12]]RD_12
+|OPERATOR
+|Мобильный оператор
+|int64
+a|Вернёт (в скобках описание от Вебзайм):
+----
+1 - если MTS (МТС)
+2 - если TELE2 (Теле-2)
+3 - если BEELINE (Билайн)
+4 - если MEGAFON (Мегафон)
+5 - если YOTA (Yota)
+0 - прочее
+----
+
+|[[RD_13]]RD_13
+|TYPE_DEVICE
+|Тип девайса, с которого оставлена заявка
+|object
+a|Вернёт (в скобках описание от Вебзайм):
+----
+iPhone - если IPHONE (iPhone)
+iPad - если IPAD (содержит iPad)
+Linux - если LINUX (содержит X11)
+MacBook - если MACBOOK (содержит Macintosh)
+Android - если ANDROID (содержит Android)
+PC - если PC (содержит Windows NT)
+unknown - по умолчанию.
+----
+
+|[[RD_14]]RD_14
+|CHILDREN
+|Количество детей
+|int64
+|Количество детей, для NULL=0
+
+|[[RD_15]]RD_15
+|EDUCATION
+|Образование
+|int64
+a|(в скобках описание от Вебзайм)
+----
+1 - PRIMARY (Начальное/среднее)
+2 - UNCOMPLETED_HIGHER (Неполное высшее)
+3 - HIGHER (Высшее)
+4 - SECOND_HIGHER (Второе высшее)
+5 - ACADEMIC_DEGREE (Ученая степень)
+----
+
+|[[RD_16]]RD_16
+|INCOME
+|Доход в месяц
+|int64
+|Значение поля income (45000 если null)
+
+|[[RD_17]]RD_17
+|MARITAL_STATUS
+|Семейное положение
+|int64
+a|(в скобках описание от Вебзайм)
+----
+1 - SINGLE (Холост/не замужем)
+2 - DIVORCED (Разведен/разведена)
+3 - INFORMAL_MARRIAGE (Гражданский брак)
+4 - MARRIED (Женат/замужем)
+5 - WIDOW (Вдовец/вдова)
+0 - иначе, в том числе null
+----
+
+|[[RD_18]]RD_18
+|SECTOR
+|Отрасль народного хозяйства
+|int64
+|Значение поля sector (clientJob.sector)
+
+|[[RD_19]]RD_19
+|FACTREGION
+|Регион проживание
+|int64
+|Первые 2 цифры КЛАДР кода региона в адресе проживания (addressResidence.region.kladrId)
+
+|[[RD_20]]RD_20
+|LOAN_AMOUNT_START
+|Сумма заёма, запрошенная клиентом на сайте
+|int64
+|Значение поля loanAmountRequested
+
+|====================
+
+== Правила расчета скор-факторов по внутренней КИ
+
+[width="100%",options="header"]
+
+|====================
+|Название|SQL-название|Описание правила|Тип данных|Описание расчета
+
+|[[WZCH_4]]WZCH_4
+|LTV_LAST
+|Разница между суммой погашения по последнему закрытому займу и суммой последнего закрытого займа
+|float64
+|Сумма погашения по последнему закрытому займу (loanRepaymentSum) - Сумма последнего закрытого займа (loanAmount)
+
+
+|[[WZCH_5]]WZCH_5
+|MAX_DELAY_LAST
+|Максимальная просрочка по последнему закрытому займу
+|float64
+|Поле maxDelayDays последнего займа
+
+|[[WZCH_7]]WZCH_7
+|COUNT_DELAY_LAST
+|Количество выходов на просрочку по предыдущему займу
+|float64
+|Поле loanTotalDelay последнего займа
+
+|[[WZCH_8]]WZCH_8
+|DAYS_AFTER_CLOSE_FIRST_LOAN
+|Количество дней с закрытия первого займа до даты выдачи последнего займа
+|float64
+|Разница в днях: Дата выдачи (loanOpenDate) по последнему займу - Дата закрытия (loanCloseDate) по последнему займу. Если эта разница < 0, то возвращаем 0.
+
+
+|[[WZCH_18]]WZCH_18
+|LTV
+|Общая сумма всех погашений по погашенным займам
+|int64
+|Сумма по всем суммам погашения (loanRepaymentSum) - Сумма всех значений полей loanAmount при loanStatus=REPAID
+
+|[[WZCH_19]]WZCH_19
+|MAX_DELAY_PERIOD
+|Максимальное количество дней на просрочке по займу (поиск среди всех займов)
+|int64
+|Поле maxDelayDays
+
+|[[WZCH_27]]WZCH_27
+|RATIO_DELAY
+|
+|int64
+|Отношение количества всех запросов на займ loanRequestId, где maxDelayDays>0 к количеству погашенных (loanStatus=REPAID) займов
+
+|[[WZCH_34]]WZCH_34
+|COUNT_EXTENSION_LAST
+|кол-во продлений последнего займа
+|int64
+|поле loanExtensionsCount последнего займа
+
+|[[WZCH_40]]WZCH_40
+|COUNT_DEMAND_TRY_ERROR
+|Количество займов с ошибками рек списаний
+|int64
+|Количество всех займов loanId, где unsuccessfulDebitsCount > 0
+
+|[[WZCH_41]]WZCH_41
+|AVG_LOAN
+|Средняя сумма всех предыдущих закрытых займов по клиенту
+|int64
+|Средняя сумма (округленная до 3 знаков) всех loanRepaymentSum по всем loanId с loanCloseDate не пустой
+
+
+|====================
+
+
+== Правила расчета скор-факторов по Juicy Score
+
+[width="100%"]
+|====================
+|Название|SQL-название|Описание правила|Тип данных|Описание расчета
+
+|[[JS_2]]JS_2
+|SINGLE_CLICK
+|численный параметр, количество одинарных кликов, сделанных виртуальным пользователем
+|float64
+|Поле j.SINGLE_CLICK или -9000 если оно отсутствует.
+Если данные JuicyScore полностью отсутствуют (JuicyScoreData.deviceId отсутствует), то 1.
+Если registrationData.employeeLogin = true (сотрудник компании залогинился через CRM), то 3.
+
+|[[JS_3]]JS_3
+|SAME_PHONE
+|бинарный параметр, отражающий соответствие телефона предыдущего и текущего заявлений для связанных устройств и пользователей
+|float64
+|Поле j.SAME_PHONE или -9000 если оно отсутствует.
+Если данные JuicyScore полностью отсутствуют (JuicyScoreData.deviceId отсутствует), то 0.
+Если registrationData.employeeLogin = true (сотрудник компании залогинился через CRM), то 1.
+
+|[[JS_4]]JS_4
+|TIME_ON_PAGE
+|действительный параметр, отражающий продолжительность заполнения страницы, где
+установлен JS (в сек)
+|float64
+|Поле j.TIME_ON_PAGE или -9000 если оно отсутствует.
+Если данные JuicyScore полностью отсутствуют (JuicyScoreData.deviceId отсутствует), то тоже -9000.
+Если registrationData.employeeLogin = true (сотрудник компании залогинился через CRM), то 24.
+
+|[[JS_7]]JS_7
+|DEVICE_QUALITY
+|численный параметр, индекс качества устройства, комбинация технических параметров характеристик устройства (позитивный фактор
+|float64
+|поле j.DEVICE_QUALITY или -9000 если оно отсутствует.
+Если данные JuicyScore полностью отсутствуют (JuicyScoreData.deviceId отсутствует), то 0.
+Если registrationData.employeeLogin = true (сотрудник компании залогинился через CRM), то 6.
+
+|[[JS_11]]JS_11
+|DEV_AGEING_W_U
+|Возвращает численный параметр, длительность использования устройства данным виртуальным пользователем в неделях
+|int64
+|поле j.DEV_AGEING_W_U или -9000 если оно отсутствует. Если данные JuicyScore полностью отсутствуют (JuicyScoreData.deviceId отсутствует), то 0.
+Если registrationData.employeeLogin = true (сотрудник компании залогинился через CRM), то 28.
+
+|[[JS_12]]JS_12
+|PHONES_NUMBER
+|численный параметр, количество дополнительных связанных номеров телефонов (первые 6 чисел после кода страны) для данного виртуального пользователя или устройства
+|int64
+|поле j.PHONES_NUMBER. Default -9000
+Если registrationData.employeeLogin = true (сотрудник компании залогинился через CRM), то 0.
+
+|[[JS_13]]JS_13
+|IDX8_DCV
+|численный параметр, индекс достоверности заявочных данных виртуального пользователя (позитивный фактор, может быть null , если виртуальный пользователь встречается впервые)
+|int64
+|поле j.IDX8_DCV. Default -9000
+Если registrationData.employeeLogin = true (сотрудник компании залогинился через CRM), то 3.
+
+|[[JS_16]]JS_16
+|IP_SIM_REGIONS_MATCH
+|бинарный параметр, отражающий соответствие региона IP адреса и региона выдачи сим карты пользователя
+|float64
+|поле j.IP_SIM_REGIONS_MATCH или -9000 если оно отсутствует.
+Если данные JuicyScore полностью отсутствуют (JuicyScoreData.deviceId отсутствует), то 0.
+Если registrationData.employeeLogin = true (сотрудник компании залогинился через CRM), то 1.
+|====================
+
+.Правила расчета скор-факторов по Мегафон OneFactor
+[width="100%"]
+|====================
+|Название|SQL-название|Описание правила|Тип данных|Описание расчета
+
+|[[MF_3]]MF_3
+|LIFETIME_BIN
+|Срок использования телефонного номера. Принимает значения: 0, 1, 2, 3, 4, 5
+|float64
+|Поле LIFETIME_BIN. Default - 0
+
+|[[MF_9]]MF_9
+|PAY_MAX
+|Платежи за услуги связи. Принимает значения: 0, 1, 2, 3, 4, 5
+|int64
+|Поле PAY_MAX
+
+|[[MF_10]]MF_10
+|SCORE_MF
+|Скор-балл Мегафона
+|int64
+|Поле SCORE_2
+
+|[[MF_11]]MF_11
+|NO_JOB_SCORE
+|
+|int64
+|Поле NO_JOB
+
+|====================
+
+== Правила расчета скор-факторов по КИ НБКИ
+
+[width="100%"]
+|====================
+|Название|SQL-название|Описание правила|Тип данных|Описание расчета
+
+|[[NBCH_1]]NBCH_1
+|BADCREDCNT
+|кол-во проблемных кредитов в КИ
+|int64
+|Количество всех неодинаковых accountType, в которых accountRating = 52, либо 61, либо 14. По умолчанию 0.
+
+|[[NBCH_3]]NBCH_3
+|COUNTCLOSEMFKSTATE
+|количество закрытых микрозаймов в КИ
+|int64
+|Количество всех AccountReply, где accountType = 16 и accountRating = 13. По умолчанию 0.
+
+|[[NBCH_4]]NBCH_4
+|LASTMFKSTATE
+|статус последнего микрозайма в КИ
+|float64
+|Значение accountRating, где  и accountType = 16 и serialNum = max(serialNum) при max(openedDt) [ищем кредиты с максимальной(последней) датой. Если их несколько на одну дату (максимальную), выбираем из них тот, у которого серийник больше]. По умолчанию NULL.
+
+|[[NBCH_8]]NBCH_8
+|COUNT_DELAY_LOAN
+|Кол-во просроченных займов
+|float64
+|Количество кредитов (тегов AccountReply) с accountType = 16 и  accountRating = 52. Для NULL = 0.
+
+|[[NBCH_9]]NBCH_9
+|COUNT_END_LOAN
+|Кол-во закрытых займов
+|float64
+|Количество кредитов (тегов AccountReply) с accountType = 16 и accountRating = 13. Для NULL = 0.
+
+|[[NBCH_10]]NBCH_10
+|COUNT_END_LOAN_WITH_DELAY
+|Кол-во закрытых займов c просрочкой
+|float64
+|Количество кредитов(тегов AccountReply) с accountType = 16 и accountRating = 13
+и первым символом поля paymtPat > 0 или paymtPat = 'А'. Для NULL = 0.
+
+|[[NBCH_11]]NBCH_11
+|COUNT_END_LOAN_WITHOUT_DELAY
+|Кол-во закрытых займов без просрочки
+|float64
+|Количество кредитов(тегов AccountReply) с accountType = 16 и accountRating = 13 и первым символом поля paymtPat = 0 или 1
+
+|[[NBCH_12]]NBCH_12
+|SUM_OVERDUE_LOAN
+|Просроченная задолженность по займам
+|float64
+|Сумма по всем amountPastDue с accountType = 16. В случае NULL возвращает 0.
+
+|[[NBCH_13]]NBCH_13
+|PL_LOAN
+|PL по займам
+|float64
+|(Сумма по всем curBalanceAmt, где accountType = 16) / (сумма по всем creditLimit, где accountType = 16). В случае NULL возвращает -9000.
+
+|[[NBCH_14]]NBCH_14
+|PL_END_LOAN
+|PL по закрытым займам
+|float64
+|(Сумма по всем curBalanceAmt, где accountType = 16 и accountRating = 13) / (Сумму по всем creditLimit, где accountType = 16 и accountRating = 13). В случае NULL возвращает 0.
+
+|[[NBCH_15]]NBCH_15
+|MAX_DELAY_PERIOD_LOAN
+|Максимальный срок просрочки по займам
+|float64
+a|Берем все paymtPat, где accountType =16, смотрим первую цифру поля paymtPat
+----
+если '1', то 0
+если 'A', то 30
+если '2', то 60
+если '3', то 90
+если '4', то 120
+если '5', то 150
+если '6', то 150
+если '7', то 150
+если '8', то 150
+если '9', то 150
+в противном случае 0
+----
+далее возвращаем тот результат, который будет самым наибольшим. (Таким образом, может вернуться 0, 30, 60, 90, 120, 150). В случае NULL возвращает 0.
+
+|[[NBCH_16]]NBCH_16
+|COUNT_LOAN_3_DAYS
+|Кол-во взятых займов за 3 дня до заявки
+|float64
+|Количество кредитов (тегов AccountReply), где accountType = 16 и (дата создания заявки (applicationCreated)-дата выдачи кредита (cred_date)) <= 3 дней. В случае NULL возвращает 0.
+
+|[[NBCH_17]]NBCH_17
+|COUNT_LOAN_10_DAYS
+|Кол-во взятых займов за 10 дней до заявки
+|float64
+|Количество кредитов (тегов AccountReply), где accountType = 16 и (дата создания заявки (applicationCreated)-дата выдачи кредита (cred_date)) <= 10 дней. В случае NULL возвращает 0.
+
+|[[NBCH_18]]NBCH_18
+|COUNT_LOAN_30_DAYS
+|Кол-во взятых займов за 30 дней до заявки
+|float64
+|Количество кредитов (тегов AccountReply), где accountType = 16 и (дата создания заявки (applicationCreated)-дата выдачи кредита (cred_date)) <= 30 дней. В случае NULL возвращает 0.
+
+|[[NBCH_19]]NBCH_19
+|COUNT_DELAY30_LOAN
+|Кол-во просроченных займов срок просрочки до 30 дней
+|float64
+|Количество кредитов (тегов AccountReply) с accountType = 16 и, чтобы количество вхождений в paymtPat символа 'A' (с учетом регистра) было больше 0. В случае NULL возвращает 0.
+
+|[[NBCH_20]]NBCH_20
+|COUNT_DELAY60_LOAN
+|Кол-во просроченных займов срок просрочки до 60 дней
+|float64
+|Количество кредитов (тегов AccountReply) с accountType = 16 и, чтобы количество вхождений в paymtPat символа '2' было больше 0. В случае NULL возвращает 0.
+
+|[[NBCH_21]]NBCH_21
+|COUNT_DELAY90_LOAN
+|Кол-во просроченных займов срок просрочки до 90 дней
+|float64
+|Количество кредитов (тегов AccountReply) с accountType = 16 и, чтобы количество вхождений в paymtPat символа '3' было больше 0. В случае NULL возвращает 0.
+
+|[[NBCH_22]]NBCH_22
+|COUNT_DELAY_MORE_LOAN
+|Кол-во просроченных займов срок просрочки более 90 дней
+|float64
+|Количество кредитов (тегов AccountReply) с accountType = 16 и, чтобы количество вхождений в paymtPat любого из символов '4','5','7','8' было больше 0. В случае NULL возвращает 0.
+
+|[[NBCH_23]]NBCH_23
+|COUNT_ACT_CREDCARD
+|Кол-во действующих кредитных карт
+|float64
+|Количество кредитов (тегов AccountReply), где accountType = 7 и accountRating = 0. В случае NULL возвращает 0.
+
+|[[NBCH_24]]NBCH_24
+|DEBT_ACT_CREDCARD
+|Задолженность по действующим кредитным картам
+|float64
+|Cумма всех amountOutstanding, где accountType = 7 и accountRating = 0. В случае NULL возвращает 0.
+
+|[[NBCH_25]]NBCH_25
+|SUM_OVERDUE_CREDCARD
+|Просроченная задолженность по кредитным картам
+|float64
+|Сумма всех amountPastDue, где accountType = 7. В случае NULL возвращает 0.
+
+|[[NBCH_26]]NBCH_26
+|CREDCARD_LIMIT_BALANS
+|Доля остатка лимита по кредитной карте
+|float64
+|1 - (отношение суммы всех amountOutstanding, в которых accountType = 7 и accountRating = 0 к сумме всех creditLimit, в которых accountType = 7 и accountRating = 0). В случае NULL возвращает 0.
+
+|[[NBCH_27]]NBCH_27
+|PAYS_0_DELAY_CREDCARD
+|Доля платежей по кредитной карте в срок
+|float64
+|(X-Y)/X, где
+
+X: берем все paymtPat, где accountType=7. Считаем длину строки каждого paymtPat, без учета знаков X и 0 (например, если строка была AXX005341, то мы убираем из нее XX00 и получаем A5341 => длина 5), затем суммируем эти длины.
+
+Y: берем все paymtPat, где accountType=7. Считаем длину строки каждого paymtPat, без учета знаков X, 0 и 1, затем суммируем эти длины.
+
+При NULL возвращает 0.
+
+|[[NBCH_28]]NBCH_28
+|PAYS_A_DELAY_CREDCARD
+|Доля платежей по кредитной карте до 30 дней
+|float64
+|(X-Y)/X, где
+
+X: берем все paymtPat, где accountType=7. Считаем длину строки каждого paymtPat, без учета знаков X и 0 (например, если строка была AXX005341, то мы убираем из нее XX00 и получаем A5341 => длина 5), затем суммируем эти длины.
+
+Y: берем все paymtPat, где accountType=7. Считаем длину строки каждого paymtPat, без учета знаков X, 0 и A, затем суммируем эти длины.
+
+При NULL возвращает 0.
+
+|[[NBCH_29]]NBCH_29
+|PAYS_2_DELAY_CREDCARD
+|Доля платежей по кредитной карте до 60 дней
+|float64
+|(X-Y)/X, где
+
+X: берем все paymtPat, где accountType=7. Считаем длину строки каждого paymtPat, без учета знаков X и 0 (например, если строка была AXX005341, то мы убираем из нее XX00 и получаем A5341 => длина 5), затем суммируем эти длины.
+
+Y: берем все paymtPat, где accountType=7. Считаем длину строки каждого paymtPat, без учета знаков X, 0 и 2, затем суммируем эти длины.
+
+При NULL возвращает 0.
+
+|[[NBCH_30]]NBCH_30
+|PAYS_3_DELAY_CREDCARD
+|Доля платежей по кредитной карте до 90 дней
+|float64
+|(X-Y)/X, где
+
+X: берем все paymtPat, где accountType=7. Считаем длину строки каждого paymtPat, без учета знаков X и 0 (например, если строка была AXX005341, то мы убираем из нее XX00 и получаем A5341 => длина 5), затем суммируем эти длины.
+
+Y: берем все paymtPat, где accountType=7. Считаем длину строки каждого paymtPat, без учета знаков X, 0 и 3, затем суммируем эти длины.
+
+При NULL возвращает 0.
+
+|[[NBCH_31]]NBCH_31
+|PAYS_4_DELAY_CREDCARD
+|Доля платежей по кредитной карте до 120 дней
+|float64
+|(X-Y)/X, где
+
+X: берем все paymtPat, где accountType=7. Считаем длину строки каждого paymtPat, без учета знаков X и 0 (например, если строка была AXX005341, то мы убираем из нее XX00 и получаем A5341 => длина 5), затем суммируем эти длины.
+
+Y: берем все paymtPat, где accountType=7. Считаем длину строки каждого paymtPat, без учета знаков X, 0 и 4, затем суммируем эти длины.
+
+При NULL возвращает 0.
+
+|[[NBCH_32]]NBCH_32
+|PAYS_5_DELAY_CREDCARD
+|Доля платежей по кредитной карте до 150 дней
+|float64
+|(X-Y)/X, где
+
+X: берем все paymtPat, где accountType=7. Считаем длину строки каждого paymtPat, без учета знаков X и 0 (например, если строка была AXX005341, то мы убираем из нее XX00 и получаем A5341 => длина 5), затем суммируем эти длины.
+
+Y: берем все paymtPat, где accountType=7. Считаем длину строки каждого paymtPat, без учета знаков X, 0 и 5, затем суммируем эти длины.
+
+При NULL возвращает 0.
+
+|[[NBCH_33]]NBCH_33
+|PAYS_9_DELAY_CREDCARD
+|Доля платежей по кредитной карте более 150 дней
+|float64
+|(X-Y)/X, где
+
+X: берем все paymtPat, где accountType=7. Считаем длину строки каждого paymtPat, без учета знаков X и 0 (например, если строка была AXX005341, то мы убираем из нее XX00 и получаем A5341 => длина 5), затем суммируем эти длины.
+
+Y: берем все paymtPat, где accountType=7. Считаем длину строки каждого paymtPat, без учета знаков X, 0 и 9, затем суммируем эти длины.
+
+При NULL возвращает 0.
+
+|[[NBCH_34]]NBCH_34
+|COUNT_END_POTREB
+|Кол-во закрытых потребительских кредитов
+|float64
+|Количество кредитов (тегов AccountReply), в которых (accountType = 9 или accountType = 17 или accountType = 18)  и accountRating = 13. В случае NULL возвращает 0.
+
+|[[NBCH_35]]NBCH_35
+|SUM_OVERDUE_POTREB
+|Просроченная задолженность по потребительским кредитам
+|float64
+|Сумма по всем amountPastDue, в которых accountType = 9 или accountType = 17 или accountType = 18. В случае NULL возвращает 0.
+
+|[[NBCH_36]]NBCH_36
+|PAYS_0_DELAY_POTREB
+|Доля платежей по потребам в срок
+|float64
+|(X-Y)/X, где
+
+X: берем все paymtPat, где accountType=9 или accountType = 17 или accountType=18. Считаем длину строки каждого paymtPat, без учета знаков X и 0 (например, если строка была AXX005341, то мы убираем из нее XX00 и получаем A5341 => длина 5), затем суммируем эти длины.
+
+Y: берем все paymtPat, где accountType=9 или accountType = 17 или accountType=18. Считаем длину строки каждого paymtPat, без учета знаков X, 0 и 1, затем суммируем эти длины.
+
+При NULL возвращает 0.
+
+|[[NBCH_37]]NBCH_37
+|PAYS_А_DELAY_POTREB
+|Доля платежей по потребам просрочка до 30 дней
+|float64
+|(X-Y)/X, где
+
+X: берем все paymtPat, где accountType=9 или accountType = 17 или accountType=18. Считаем длину строки каждого paymtPat, без учета знаков X и 0 (например, если строка была AXX005341, то мы убираем из нее XX00 и получаем A5341 => длина 5), затем суммируем эти длины.
+
+Y: берем все paymtPat, где accountType=9 или accountType = 17 или accountType=18. Считаем длину строки каждого paymtPat, без учета знаков X, 0 и A, затем суммируем эти длины.
+
+При NULL возвращает 0.
+
+|[[NBCH_38]]NBCH_38
+|PAYS_2_DELAY_POTREB
+|Доля платежей по потребам просрочка до 60 дней
+|float64
+|(X-Y)/X, где
+
+X: берем все paymtPat, где accountType=9 или accountType = 17 или accountType=18. Считаем длину строки каждого paymtPat, без учета знаков X и 0 (например, если строка была AXX005341, то мы убираем из нее XX00 и получаем A5341 => длина 5), затем суммируем эти длины.
+
+Y: берем все paymtPat, где accountType=9 или accountType = 17 или accountType=18. Считаем длину строки каждого paymtPat, без учета знаков X, 0 и 2, затем суммируем эти длины.
+
+При NULL возвращает 0.
+
+|[[NBCH_39]]NBCH_39
+|PAYS_3_DELAY_POTREB
+|Доля платежей по потребам просрочка до 90 дней
+|float64
+|(X-Y)/X, где
+
+X: берем все paymtPat, где accountType=9 или accountType = 17 или accountType=18. Считаем длину строки каждого paymtPat, без учета знаков X и 0 (например, если строка была AXX005341, то мы убираем из нее XX00 и получаем A5341 => длина 5), затем суммируем эти длины.
+
+Y: берем все paymtPat, где accountType=9 или accountType = 17 или accountType=18. Считаем длину строки каждого paymtPat, без учета знаков X, 0 и 3, затем суммируем эти длины.
+
+При NULL возвращает 0.
+
+|[[NBCH_40]]NBCH_40
+|PAYS_4_DELAY_POTREB
+|Доля платежей по потребам просрочка до 120 дней
+|float64
+|(X-Y)/X, где
+
+X: берем все paymtPat, где accountType=9 или accountType = 17 или accountType=18. Считаем длину строки каждого paymtPat, без учета знаков X и 0 (например, если строка была AXX005341, то мы убираем из нее XX00 и получаем A5341 => длина 5), затем суммируем эти длины.
+
+Y: берем все paymtPat, где accountType=9 или accountType = 17 или accountType=18. Считаем длину строки каждого paymtPat, без учета знаков X, 0 и 4, затем суммируем эти длины.
+
+При NULL возвращает 0.
+
+|[[NBCH_41]]NBCH_41
+|PAYS_5_DELAY_POTREB
+|Доля платежей по потребам просрочка до 150 дней
+|float64
+|(X-Y)/X, где
+
+X: берем все paymtPat, где accountType=9 или accountType = 17 или accountType=18. Считаем длину строки каждого paymtPat, без учета знаков X и 0 (например, если строка была AXX005341, то мы убираем из нее XX00 и получаем A5341 => длина 5), затем суммируем эти длины.
+
+Y: берем все paymtPat, где accountType=9 или accountType = 17 или accountType=18. Считаем длину строки каждого paymtPat, без учета знаков X, 0 и 5, затем суммируем эти длины.
+
+При NULL возвращает 0.
+
+|[[NBCH_42]]NBCH_42
+|PAYS_9_DELAY_POTREB
+|Доля платежей по потребам просрочка более 150 дней
+|float64
+|(X-Y)/X, где
+
+X: берем все paymtPat, где accountType=9 или accountType = 17 или accountType=18. Считаем длину строки каждого paymtPat, без учета знаков X и 0 (например, если строка была AXX005341, то мы убираем из нее XX00 и получаем A5341 => длина 5), затем суммируем эти длины.
+
+Y: берем все paymtPat, где accountType=9 или accountType = 17 или accountType=18. Считаем длину строки каждого paymtPat, без учета знаков X, 0 и 9, затем суммируем эти длины.
+
+При NULL возвращает 0.
+
+|[[NBCH_43]]NBCH_43
+|COUNT_7_DAYS
+|Кол-во запросов на займы за последние 7 дней
+|float64
+|Количество тегов InquiryReply, где inquiryPeriod = 'последние 7 дней' и inqPurpose = "16"
+
+|[[NBCH_44]]NBCH_44
+|COUNT_14_DAYS
+|Кол-во запросов на займы за последние 14 дней
+|float64
+|Количество тегов InquiryReply, где inquiryPeriod = 'последние 14 дней' и inqPurpose = "16"
+
+|[[NBCH_45]]NBCH_45
+|COUNT_21_DAYS
+|Кол-во запросов на займы за последние 21 день
+|float64
+|Количество тегов InquiryReply, где inquiryPeriod = 'последние 21 дней' и inqPurpose = "16"
+
+|[[NBCH_46]]NBCH_46
+|COUNT_30_DAYS
+|Кол-во запросов на займы за последние 30 дней
+|float64
+|Количество тегов InquiryReply, где inquiryPeriod = 'последние 30 дней' и inqPurpose = "16"
+
+|[[NBCH_47]]NBCH_47
+|COUNT_60_DAYS
+|Кол-во запросов на займы за последние 60 дней
+|float64
+|Количество тегов InquiryReply, где inquiryPeriod = 'последние 60 дней' и inqPurpose = "16"
+
+|[[NBCH_48]]NBCH_48
+|COUNT_90_DAYS
+|Кол-во запросов на займы за последние 90 дней
+|float64
+|Количество тегов InquiryReply, где inquiryPeriod = 'последние 90 дней' и inqPurpose = "16"
+
+|[[NBCH_49]]NBCH_49
+|COUNT_180_DAYS
+|Кол-во запросов на займы за последние 180 дней
+|float64
+|Количество тегов InquiryReply, где inquiryPeriod = 'последние 180 дней' и inqPurpose = "16"
+
+|[[NBCH_50]]NBCH_50
+|COUNT_365_DAYS
+|Кол-во запросов на займы за последние 365 дней
+|float64
+|Количество тегов InquiryReply, где inquiryPeriod = 'последний 1 год' и inqPurpose = "16"
+
+|[[NBCH_51]]NBCH_51
+|COUNT_MORE_DAYS
+|Кол-во запросов на займы за период более года
+|float64
+|Количество тегов InquiryReply, где inquiryPeriod = 'более 1 года' и inqPurpose = "16"
+
+|[[NBCH_52]]NBCH_52
+|DEL30MFO
+|
+|float64
+|Для кредитов с lastUpdateDate лежащей в пределах последних 4 лет, суммируем количество вхождений в paymtPat символа 'A' (с учетом регистра), в которых accountType = 16
+
+|[[NBCH_53]]NBCH_53
+|DEL60MFO
+|
+|float64
+|Для кредитов с lastUpdateDate лежащей в пределах последних 4 лет, суммируем количество вхождений в paymtPat символа '2', в которых accountType = 16
+
+|[[NBCH_54]]NBCH_54
+|DEL30CRED
+|
+|float64
+| Для кредитов с lastUpdateDate лежащей в пределах последних 4 лет, суммируем количество вхождений в paymtPat символа 'A' (с учетом регистра), в которых accountType = 1 или accountType = 7 или accountType = 9 или accountType = 5 или accountType = 6 или accountType = 17 или accountType = 18
+
+|[[NBCH_55]]NBCH_55
+|DEL60CRED
+|
+|float64
+| Для кредитов с lastUpdateDate лежащей в пределах последних 4 лет, суммируем количество вхождений в paymtPat символа '2', в которых accountType = 1 или accountType = 7 или accountType = 9 или accountType = 5 или accountType = 6 или accountType = 17 или accountType = 18
+
+|[[NBCH_56]]NBCH_56
+|SUMOVERDUE
+|Суммарная просрочка на конец месяца
+|float64
+|Сумма по всем amountPastDue для кредитов с lastUpdateDate лежащей в пределах последних 4 лет.
+
+|[[NBCH_57]]NBCH_57
+|AMOUNTCLOSMFO
+|Количество погашенных займов
+|float64
+|Для кредитов с lastUpdateDate лежащей в пределах последних 4 лет, считаем количество таких accountRating = 13 при которых accountType = 16. Для NULL=0.
+
+|[[NBCH_58]]NBCH_58
+|AMOUNTCLOSCRED
+|Количество закрытых кредитов
+|float64
+|Для кредитов с lastUpdateDate лежащей в пределах последних 4 лет, считаем количество таких accountRating = 13 при которых (accountType = 1 или accountType = 7 или accountType = 9 или accountType = 5 или accountType = 6 или accountType = 17 или accountType = 18). Для NULL=0.
+
+|[[NBCH_59]]NBCH_59
+|CURDEFMFO
+|Количество активных займов
+|float64
+|Для кредитов с lastUpdateDate лежащей в пределах последних 4 лет, считаем количество таких accountRating = 52, при которых accountType = 16. Для NULL=0.
+
+|[[NBCH_60]]NBCH_60
+|CURDEFCRED
+|Количество активных кредитов
+|float64
+|Для кредитов с lastUpdateDate лежащей в пределах последних 4 лет, считаем количество таких accountRating = 52 при которых (accountType = 1 или accountType = 7 или accountType = 9 или accountType = 5 или accountType = 6 или accountType = 17 или accountType = 18). Для NULL=0.
+
+|[[NBCH_61]]NBCH_61
+|CURWODEFCRED
+|
+|float64
+|Для кредитов с lastUpdateDate лежащей в пределах последних 4 лет, считаем количество таких accountRating = 0 при которых (accountType = 1 или accountType = 7 или accountType = 9 или accountType = 5 или accountType = 6 или accountType = 17 или accountType = 18). Для NULL=0.
+
+|[[NBCH_62]]NBCH_62
+|CURDEF30MFO
+|
+|float64
+|Для кредитов с lastUpdateDate лежащей в пределах последних 4 лет, считаем количество таких serialNum, где accountType = 16 и paymtPat заканчивается на 'A'. Для NULL=0.
+
+|[[NBCH_63]]NBCH_63
+|CURDEF30CRED
+|
+|float64
+|Для кредитов с lastUpdateDate лежащей в пределах последних 4 лет, считаем количество таких serialNum, где (accountType = 1 или accountType = 7 или accountType = 9 или accountType = 5 или accountType = 6 или accountType = 17 или accountType = 18) и paymtPat заканчивается на 'A'
+
+|[[NBCH_64]]NBCH_64
+|MAX_SUM_INQ_P7
+|Максимальная сумма запроса за последние 0-7 дней
+|float64
+|Из всех обращений (InquiryReply) берем максимальную сумму (inqAmount) за последние 0-7 дней (inquiryPeriod = "последние 7 дней")
+
+|[[NBCH_65]]NBCH_65
+|MAX_SUM_INQ_P14
+|Максимальная сумма запроса за последние 8-14 дней
+|float64
+|Из всех обращений (InquiryReply) берем максимальную сумму (inqAmount) за последние 8-14 дней (inquiryPeriod = "последние 14 дней")
+
+|[[NBCH_66]]NBCH_66
+|MAX_SUM_INQ_P21
+|Максимальная сумма запроса за последние 15-21 дней
+|float64
+|Из всех обращений (InquiryReply) берем максимальную сумму (inqAmount) за последние 15-21 дней (inquiryPeriod = "последние 21 дней")
+
+|[[NBCH_67]]NBCH_67
+|MAX_SUM_INQ_P30
+|Максимальная сумма запроса за последние 22-30 дней
+|float64
+|Из всех обращений (InquiryReply) берем максимальную сумму (inqAmount) за последние 22-30 дней (inquiryPeriod = "последние 30 дней")
+
+|[[NBCH_68]]NBCH_68
+|MAX_SUM_INQ_P60
+|Максимальная сумма запроса за последние 31-60 дней
+|float64
+|Из всех обращений (InquiryReply) берем максимальную сумму (inqAmount) за последние 31-60 дней (inquiryPeriod = "последние 60 дней")
+
+|[[NBCH_69]]NBCH_69
+|MAX_SUM_INQ_P90
+|Максимальная сумма запроса за последние 61-90 дней
+|float64
+|Из всех обращений (InquiryReply) берем максимальную сумму (inqAmount) за последние 61-90 дней (inquiryPeriod = "последние 90 дней")
+
+|[[NBCH_70]]NBCH_70
+|MAX_SUM_INQ_P180
+|Максимальная сумма запроса за последние 91-180 дней
+|float64
+|Из всех обращений (InquiryReply) берем максимальную сумму (inqAmount) за последние 91-180 дней (inquiryPeriod = "последние 180 дней")
+
+|[[NBCH_71]]NBCH_71
+|MAX_SUM_INQ_P365
+|Максимальная сумма запроса за последние 181-365 дней
+|float64
+|Из всех обращений (InquiryReply) берем максимальную сумму (inqAmount) за последние 181-365 дней (inquiryPeriod = "последний 1 год")
+
+|[[NBCH_72]]NBCH_72
+|MAX_SUM_INQ_P999
+|Максимальная сумма запроса за последние 365+ дней
+|float64
+|Из всех обращений (InquiryReply) берем максимальную сумму (inqAmount) за последние 365+ дней (inquiryPeriod = "более 1 года")
+
+|[[NBCH_73]]NBCH_73
+|MAX_SUM_INQ_30
+|Максимальная сумма запроса за последние 0-30 дней
+|float64
+|Наибольшее из факторов NBСH_64,NBСH_65,NBСH_66,NBСH_67, если обращений не было, то значение -100
+
+|[[NBCH_74]]NBCH_74
+|MAX_SUM_INQ_90
+|Максимальная сумма запроса за последние 0-90 дней
+|float64
+|Наибольшее из факторов NBСH_64,NBСH_65,NBСH_66,NBСH_67,NBCH_68,NBCH_69
+
+|[[NBCH_75]]NBCH_75
+|MAX_SUM_INQ_180
+|Максимальная сумма запроса за последние 0-180 дней
+|float64
+|Наибольшее из факторов NBСH_64,NBСH_65,NBСH_66,NBСH_67,NBCH_68,NBCH_69,NBCH_70
+
+|[[NBCH_76]]NBCH_76
+|MAX_SUM_INQ_999
+|Максимальная сумма запроса за последние 0- более 365 дней
+|float64
+|Наибольшее из факторов NBСH_64,NBСH_65,NBСH_66,NBСH_67,NBCH_68,NBCH_69,NBCH_70,NBCH_71,NBCH_72. Если обращений не было, то значение -100
+
+|[[NBCH_77]]NBCH_77
+|MAX_INQ_CARD
+|Максимальная сумма запросов с типом «кредитная карта»
+|float64
+|Из всех обращений (InquiryReply) с inqPurposeText - "Кредитная карта" берем максимальную сумму (inqAmount)
+
+|[[NBCH_78]]NBCH_78
+|MAX_INQ_CUNSUM
+|Максимальная сумма запросов с типом «потребкредит»
+|float64
+|Из всех обращений (InquiryReply) с inqPurposeText - "Потребительский кредит" берем максимальную сумму (inqAmount)
+
+|[[NBCH_79]]NBCH_79
+|MAX_INQ_MFO
+|Максимальная сумма запросов с типом «микрокредит»
+|float64
+|Из всех обращений (InquiryReply) с inqPurposeText - "Микрокредит" берем максимальную сумму (inqAmount)
+
+|[[NBCH_80]]NBCH_80
+|MAX_INQ_UNKNOWN
+|Максимальная сумма запросов с типом «неизвестно»
+|float64
+|Из всех обращений (InquiryReply) с inqPurposeText - "Неизвестный тип кредита" берем максимальную сумму (inqAmount)
+
+|[[NBCH_81]]NBCH_81
+|COUNT_INQ_P7
+|Количество запросов за последние 0-7 дней
+|float64
+|Количество всех обращений (InquiryReply) за последние 0-7 дней (inquiryPeriod = "последние 7 дней")
+
+|[[NBCH_82]]NBCH_82
+|COUNT_INQ_P14
+|Количество запросов за последние 8-14 дней
+|float64
+|Количество всех обращений (InquiryReply) за последние 8-14 дней (inquiryPeriod = "последние 14 дней")
+
+|[[NBCH_83]]NBCH_83
+|COUNT_INQ_P21
+|Количество запросов за последние 15-21 дней
+|float64
+|Количество всех обращений (InquiryReply) за последние 15-21 дней (inquiryPeriod = "последние 21 дней")
+
+|[[NBCH_84]]NBCH_84
+|COUNT_INQ_P30
+|Количество запросов за последние 22-30 дней
+|float64
+|Количество всех обращений (InquiryReply) за последние 22-30 дней (inquiryPeriod = "последние 30 дней")
+
+|[[NBCH_85]]NBCH_85
+|COUNT_INQ_P60
+|Количество запросов за последние 31-60 дней
+|float64
+|Количество всех обращений (InquiryReply) за последние 31-60 дней (inquiryPeriod = "последние 60 дней")
+
+|[[NBCH_86]]NBCH_86
+|COUNT_INQ_P90
+|Количество запросов за последние 61-90 дней
+|float64
+|Количество всех обращений (InquiryReply) за последние 61-90 дней (inquiryPeriod = "последние 90 дней")
+
+|[[NBCH_87]]NBCH_87
+|COUNT_INQ_P180
+|Количество запросов за последние 91-180 дней
+|float64
+|Количество всех обращений (InquiryReply) за последние 91-180 дней (inquiryPeriod = "последние 180 дней")
+
+|[[NBCH_88]]NBCH_88
+|COUNT_INQ_P365
+|Количество запросов за последние 181-365 дней
+|float64
+|Количество всех обращений (InquiryReply) за последние 181-365 дней (inquiryPeriod = "последний 1 год")
+
+|[[NBCH_89]]NBCH_89
+|COUNT_INQ_P999
+|Количество запросов за последние 365+ дней
+|float64
+|Количество всех обращений (InquiryReply) за последние 365+ дней (inquiryPeriod = "более 1 года")
+
+|[[NBCH_90]]NBCH_90
+|COUNT_INQ_30
+|Количество запросов за последние 0-30 дней
+|float64
+|Вычисляется как NBCH_81+NBСH_82+NBСH_83+NBCH_84
+
+
+|[[NBCH_91]]NBCH_91
+|COUNT_INQ_90
+|Количество запросов за последние 0-90 дней
+|float64
+|Вычисляется как NBCH_81+NBСH_82+NBСH_83+NBCH_84+NBCH_85+NBCH_86
+
+|[[NBCH_92]]NBCH_92
+|COUNT_INQ_180
+|Количество запросов за последние 0-180 дней
+|float64
+|Вычисляется как NBCH_81+NBСH_82+NBСH_83+NBCH_84+NBCH_85+NBCH_86+NbCH_87
+
+|[[NBCH_93]]NBCH_93
+|COUNT_INQ_365
+|Количество запросов за последние 0-365 дней
+|float64
+|Вычисляется как NBCH_81+NBСH_82+NBСH_83+NBCH_84+NBCH_85+NBCH_86+NBCH_87+NBCH_88
+
+|[[NBCH_94]]NBCH_94
+|COUNT_INQ_999
+|Количество запросов за последние 0-365 дней
+|float64
+|Вычисляется как NBCH_81+NBСH_82+NBСH_83+NBCH_84+NBCH_85+NBCH_86+NBCH_87+NBCH_88+NBCH_89
+
+|[[NBCH_95]]NBCH_95
+|COUNT_INQ_CARD
+|Количество запросов на кредитную карту
+|float64
+|Количество всех обращений (InquiryReply) с inqPurposeText - "Кредитная карта"
+
+|[[NBCH_96]]NBCH_96
+|COUNT_INQ_CUNSUM
+|Количество запросов по потребам
+|float64
+|Количество всех обращений (InquiryReply) с inqPurposeText - "Потребительский кредит"
+
+|[[NBCH_97]]NBCH_97
+|COUNT_INQ_MFO
+|Количество запросов по микрозаймам
+|float64
+|Количество всех обращений (InquiryReply) с inqPurposeText - "Микрозайм"
+
+|[[NBCH_98]]NBCH_98
+|COUNT_INQ_UNKNOWN
+|Количество запросов с типом "неизвестно"
+|float64
+|Количество всех обращений (InquiryReply) с inqPurposeText - "Неизвестно"
+
+|[[NBCH_99]]NBCH_99
+|COUNT_ID
+|Количество документов в отчете НБКИ, кроме паспорта
+|float64
+|Количество identification reply с различными identificationType, где identificationType не равно 21.
+
+|[[NBCH_100]]NBCH_100
+|COUNT_MFO
+|Количество действующих займов (без учета закрытых)
+|float64
+|Количество всех случаев, при которых accountRating не равен 13
+
+|[[NBCH_101]]NBCH_101
+|COUNT_ZERO_PAYMENT
+|Количество кредитов без платежей
+|float64
+|Количество всех случаев, в которых 1й символ значения поля paymtPat равен '0'
+
+|[[NBCH_102]]NBCH_102
+|ALL_CASH
+|Общий кэш по клиенту
+|float64
+|Сумма всех разностей между currentBalanceAmount и наибольшим между creditLimit и amountOutstanding.
+
+|[[NBCH_103]]NBCH_103
+|AVG_PAYLIM_CLOSED
+|Среднее отношение выплат к лимиту по закрытым
+|float64
+|Берем отношение currentBalanceAmount к creditLimit в рамках одного AccountReply, где accountRating = 13 и creditLimit > 0. Ищем все такие отношения и вычисляем их среднее арифметическое. Округляем до второго знака после запятой.
+
+|[[NBCH_104]]NBCH_104
+|AVG_PAYLIM_ACTIVE
+|Среднее отношение выплат к лимиту по действующим с ненулевыми статусами
+|float64
+|Берем отношение currentBalanceAmount (при котором creditLimit > 0 и currentBalanceAmount > 0 и accountRating != 13)  к creditLimit (если  creditLimit > 0). Если среднее арифметическое таких отношений по каждому AccountReply не NULL, то округляем это среднее арифметическое до двух знаков после запятой. В другом случае возвращаем 0.
+
+|[[NBCH_105]]NBCH_105
+|COUNT_BIGPL
+|Количество "хороших кредитов" (отношение выплат к лимиту >=1.3)
+|float64
+|Количество всех случаев, в которых creditLimit > 0 и отношение currentBalanceAmount к creditLimit >=1.3
+
+|[[NBCH_106]]NBCH_106
+|MAX_DELAY_ACTIVE
+|Максимальная допущенная просрочка по действующим займам (кроме закрытых)
+|float64
+a|Выбираем максимальное число из всех строк paymtPat с убранными символами 'B', 'C' и 'Z' где accountRating не равно 13, при этом числа следующие:
+----
+9 - если paymtPat содержит "9"
+8 - если paymtPat содержит "8"
+7 - если paymtPat содержит "7"
+6 - если paymtPat содержит "6"
+5 - если paymtPat содержит "5"
+4 - если paymtPat содержит "4"
+3 - если paymtPat содержит "3"
+2 - если paymtPat содержит "2"
+1 - если paymtPat содержит "A"
+0 - если paymtPat содержит "1"
+-1 - если paymtPat содержит "0"
+----
+
+|[[NBCH_107]]NBCH_107
+|MAX_DELAY_ALL
+|Максимальная допущенная просрочка по всем займам
+|float64
+a|Выбираем максимальное число из всех строк paymtPat, убрав из paymtPat все символы 'B', 'C' и 'Z':
+----
+9 - если paymtPat содержит "9"
+8 - если paymtPat содержит "8"
+7 - если paymtPat содержит "7"
+6 - если paymtPat содержит "6"
+5 - если paymtPat содержит "5"
+4 - если paymtPat содержит "4"
+3 - если paymtPat содержит "3"
+2 - если paymtPat содержит "2"
+1 - если paymtPat содержит "A"
+0 - если paymtPat содержит "1"
+-1 - если paymtPat содержит "0"
+----
+
+|[[NBCH_108]]NBCH_108
+|COUNT_GOOD_CRED
+|Количество кредитов со статусом не хуже А (просрочка 1 - 29 дней). Учитываются только кредиты с ненулевыми статусами
+|float64
+|Количество всех serialNum, в которых paymtPat содержит "А" и/или "1" и/или "B" и/или "C"
+
+
+|[[NBCH_109]]NBCH_109
+|SUM_DELAY_PAY
+|Сумма просроченных платежей
+|float64
+|Сумма по всем amountPastDue
+
+|[[NBCH_110]]NBCH_110
+|COUNT_DELAY_CRED
+|Количество просроченных кредитов на дату отчета НБКИ
+|float64
+|Количество всех случаев, где amountPastDue > 0
+
+|[[NBCH_111]]NBCH_111
+|COUNT_5_PAYMENTS
+|Совокупное количество платежей со статусом 5 (просрочка свыше 120 дней)
+|float64
+|Берем поле paymtPat и считаем число вхождений цифры 5 в строку. Потом суммируем все вхождения по каждому paymtPat.
+
+|[[NBCH_112]]NBCH_112
+|COUNT_ACTIVE_CARD
+|Количество действующих кредитных карт
+|float64
+|Количество serialNum, в которых accountRating = 0 и accountType = 7
+
+|[[NBCH_113]]NBCH_113
+|COUNT_ACTIVE_MFO
+|Количество действующих микрокредитов
+|float64
+|Количество кредитов (тегов AccountReply), в которых accountType=16 и accountRating = 0
+
+|[[NBCH_114]]NBCH_114
+|COUNT_ACTIVE_CRED
+|Количество действующих кредитов в КИ
+|float64
+|Количество serialNum, в которых accountRating = 0
+
+|[[NBCH_115]]NBCH_115
+|MAX_CRED
+|Максимальная сумма кредита в КИ
+|float64
+|Наибольшее значение из всех creditLimit
+
+|[[NBCH_116]]NBCH_116
+|MIN_CRED
+|Минимальная сумма кредита в КИ
+|float64
+|Наименьшее значение из всех creditLimit
+
+|[[NBCH_117]]NBCH_117
+|COUNT_OPENP30
+|Количество кредитов открытых за последние 8-30 дней
+|float64
+|Количество всех случаев, где разница в днях между openedDt и applicationCreated не меньше 8 и не больше 30
+
+|[[NBCH_118]]NBCH_118
+|COUNT_OPENP365
+|Количество кредитов открытых за последние 181-365 дней
+|float64
+|Количество всех случаев, где разница в днях между openedDt и applicationCreated не меньше 181 и не больше 365
+
+|[[NBCH_119]]NBCH_119
+|COUNT_OPEN180
+|Количество кредитов открытых за последние 180 дней
+|float64
+|Количество всех случаев, где разница в днях между openedDt и applicationCreated не меньше 0 и не больше 180
+
+|[[NBCH_120]]NBCH_120
+|COUNT_OPEN365
+|Количество кредитов открытых за последние 365 дней
+|float64
+|Количество всех случаев, где разница в днях между openedDt и applicationCreated не меньше 0 и не больше 365
+
+
+|[[NBCH_121]]NBCH_121
+|KI_LIFETIME
+|Количество дней с момента получения первого кредита (возраст кредитной истории)
+|float64
+|Наибольшее количество дней между openedDt и applicationCreated (т.е. берем самую наименьшую дату openedDt и вычитаем ее из applicationCreated)
+
+|[[NBCH_122]]NBCH_122
+|LAST_CRED_STATUS
+|Cостояние последнего кредита в КИ
+|float64
+|Берем наибольшую дату кредита openedDt, если на наибольшую дату больше одного кредита, то берем тот, у которого больше serialNum.
+Дальше смотрим какой accountRating при этом serialNum и возвращаем этот accountRating.
+
+|[[NBCH_123]]NBCH_123
+|FIRST_DELAY_PAY
+|Номер первого платежа вышедшего на просрочку по последнему кредиту
+|float64
+|Ищет номер первого вхождения символов 'A','2' в реверснутом значении параметра paymtPat. Возвращает максимальное из наденных номеров.
+Если перечисленные символы ни разу не входят в строку, то возвращает 0. Последний кредит вычисляется как в <<NBCH_122,NBCH_122>>
+
+
+|[[NBCH_124]]NBCH_124
+|COUNT_ACTIVE
+|Количество действующих кредитов, по которым не было ни одного платежа
+|float64
+|Количество всех serialNum, по которым accountRating = 0 и currentBalanceAmount = 0
+
+|[[NBCH_125]]NBCH_125
+|SUM_ACTIVE
+|Сумма действующих кредитов, по которым не было ни одного платежа
+|float64
+|Сумма по всем creditLimit,в которых accountRating = 0 и currentBalanceAmount = 0. Если таких нет, то 0.
+
+|[[NBCH_126]]NBCH_126
+|PART_0_CRED
+|Доля количества действующих кредитов без платежа в общем количестве кредитов
+|float64
+|Отношение (округленное до 2 знаков после запятой) количества serialNum, по которым accountRating = 0 и currentBalanceAmount = 0 к количеству всех serialNum.
+
+|[[NBCH_127]]NBCH_127
+|SUM_ALL_PAYMENTS
+|Совокупная сумма всех выплат по всем кредитам заемщика
+|float64
+|Сумма по всем currentBalanceAmount
+
+|[[NBCH_128]]NBCH_128
+|SUM_BAD_CRED_LIM
+|Сумма лимитов по проблемным кредитам (всем кроме активных и закрытых)
+|float64
+|Сумма всех creditLimit, в которых accountRating не равно 0,12,13.
+
+|[[NBCH_129]]NBCH_129
+|SUM_BAD_CRED_PAYMENTS
+|Отношение совокупных выплат по проблемным кредитам (всем кроме активных и закрытых)
+|float64
+|Округленное до двух знаков после запятой отношение суммы всех currentBalanceAmount, в которых accountRating не равен 0,12,13 и creditLimit >0, к сумме всех creditLimit, в которых accountRating не равен 0,12,13 и creditLimit >0
+
+|[[NBCH_130]]NBCH_130
+|COUNT_0_PAYMENTS
+|Совокупное количество платежей со статусом 0 (не настал срок первого платежа)
+|float64
+|Считаем вхождение цифры 0 в строку paymtPat, затем считаем сумму вхождений по всем строкам
+
+|[[NBCH_131]]NBCH_131
+|COUNT_1_PAYMENTS
+|Совокупное количество платежей со статусом 1 (своевременные платежи)
+|float64
+|Считаем вхождение цифры 1 в строку paymtPat, затем считаем сумму вхождений по всем строкам
+
+|[[NBCH_132]]NBCH_132
+|COUNT_A_PAYMENTS
+|Совокупное количество платежей со статусом A (просрочка 1 - 29 дней)
+|float64
+|Считаем вхождение символа 'A' в строку paymtPat, затем считаем сумму вхождений по всем строкам
+
+|[[NBCH_133]]NBCH_133
+|COUNT_2_PAYMENTS
+|Совокупное количество платежей со статусом 2 (просрочка 30 - 59 дней)
+|float64
+|Сумма всех разниц длин строк paymtPat и paymtPat, в которой все символы '2' удалены. (Можно интерпретировать по-другому: Считаем вхождение цифры 2 в строку paymtPat, затем считаем сумму вхождений по всем строкам)
+
+|[[NBCH_134]]NBCH_134
+|COUNT_3_PAYMENTS
+|Совокупное количество платежей со статусом 3 (просрочка 60 - 89 дней)
+|float64
+|Сумма всех разниц длин строк paymtPat и paymtPat, в которой все символы '3' удалены. (Можно интерпретировать по-другому: Считаем вхождение цифры 3 в строку paymtPat, затем считаем сумму вхождений по всем строкам)
+
+|[[NBCH_135]]NBCH_135
+|COUNT_4_PAYMENTS
+|Совокупное количество платежей со статусом 4 (просрочка 90 - 119 дней)
+|float64
+|Сумма всех разниц длин строк paymtPat и paymtPat, в которой все символы '4' удалены. (Можно интерпретировать по-другому: Считаем вхождение цифры 4 в строку paymtPat, затем считаем сумму вхождений по всем строкам)
+
+|[[NBCH_136]]NBCH_136
+|COUNT_7_PAYMENTS
+|Совокупное количество платежей со статусом 7 (реструктурированные кредиты)
+|float64
+|Сумма всех разниц длин строк paymtPat и paymtPat, в которой все символы '7' удалены. (Можно интерпретировать по-другому: Считаем вхождение цифры 7 в строку paymtPat, затем считаем сумму вхождений по всем строкам)
+
+|[[NBCH_137]]NBCH_137
+|COUNT_9_PAYMENTS
+|Совокупное количество платежей со статусом 9 (проблемные кредиты на взыскании)
+|float64
+|Считаем вхождение цифры 9 в строку paymtPat, затем считаем сумму вхождений по всем строкам
+
+|[[NBCH_138]]NBCH_138
+|COUNT_X_PAYMENTS
+|Совокупное количество платежей со статусом X (отсутствуют данные в НБКИ)
+|float64
+|Считаем вхождение символа X в строку paymtPat, затем считаем сумму вхождений по всем строкам
+
+|[[NBCH_139]]NBCH_139
+|COUNT_BIG_CRED
+|Количество крупных кредитов
+|float64
+|Количество всех случаев, в которых creditLimit > 100000 или currentBalanceAmount > 100000
+
+|[[NBCH_140]]NBCH_140
+|PL_BIG_CRED
+|Всего выплачено по крупным кредитам
+|float64
+|Сумма по всем currentBalanceAmount, в которых creditLimit > 100000 или currentBalanceAmount > 100000
+
+|[[NBCH_141]]NBCH_141
+|LIFETIME_BIG_CRED
+|Количество дней с даты открытия последнего крупного кредита до обращения к нам за кредитом
+|float64
+|applicationCreated - максимальная openedDt, в которой creditLimit > 100000 или currentBalanceAmount > 100000
+
+|[[NBCH_142]]NBCH_142
+|BIG_TO_ALL
+|Доля крупных кредитов во всех кредитах
+|float64
+|Округленное до двух знаков после запятой отношение количества serialNum, в которых creditLimit > 100000 или currentBalanceAmount > 100000 к количеству всех serialNum
+
+|[[NBCH_143]]NBCH_143
+|COUNT_SMALL_CRED
+|Количество мелких кредитов
+|float64
+|Количество всех serialNum, в которых creditLimit < 50000
+
+|[[NBCH_144]]NBCH_144
+|PL_SMALL_CRED
+|Всего выплачено по мелким кредитам
+|float64
+|Сумма по всем currentBalanceAmount, в которых creditLimit < 50000
+
+|[[NBCH_145]]NBCH_145
+|LIFETIME_SMALL_CRED
+|Количество дней с даты открытия последнего мелкого кредита до обращения к нам за кредитом
+|float64
+|applicationCreated - максимальная openedDt, в которой creditLimit < 50000
+
+|[[NBCH_146]]NBCH_146
+|PART_SMALL_CRED
+|Доля мелких кредитов во всех кредитах
+|float64
+|Округленное до двух знаков отношение количества всех serialNum, в которых creditLimit < 50000 к количеству всех serialNum
+
+|[[NBCH_158]]NBCH_158
+|COUNT_MORE_DAYS_POTREB
+|кол-во запросов на займы по потребам за более 365 дней
+|float64
+|количество тегов inquiryReply где inquiryPeriod= "более 1 года" и inqPurpose = 09. Для NULL=0
+
+|[[NBCH_159]]NBCH_159
+|RATIO_PROBLEM_LOAN
+|Доля просроченных и проблемных микрозаймов.
+|float64
+|Отношение кол-ва просроченных и проблемных микрозаймов (acc_type=16 и (accountRating = 52 или accountRating = 61)) к кол-ву всех микрозаймов (acc_type=16).
+Результат от деления округлить до 3 знаков.
+Если микрозаймов нет (cred_id c acc_type=16 равно 0), возвращаем Default -9000.
+
+|[[NBCH_160]]NBCH_160
+|RATIO_END_LOAN_WITHOUT_DELAY
+|Доля закрытых микрозаймов без просрочки к числу всех микрозаймов
+|float64
+|Отношение кол-ва закрытых микрозаймов (acc_type=16 и accountRating = 13 и первый символ поля paymtPat != 'A', '2', '3', '4', '5', '6', '7', '8', '9') к кол-ву всех микрозаймов (acc_type=16).
+Результат от деления округлить до 3 знаков.
+Если микрозаймов нет (cred_id c acc_type=16 равно 0), возвращаем Default -9000.
+
+|[[NBCH_161]]NBCH_161
+|RATIO_DELAY_LOAN_NEW
+|Доля просроченных микрозаймов.
+|float64
+|Отношение кол-ва просроченных микрозаймов (acc_type=16, accountRating <> 52 и paymentDueDate < consentDate) к кол-ву всех микрозаймов (acc_type=16).
+Результат от деления округлить до 3 знаков.
+Если микрозаймов нет (cred_id c acc_type=16 равно 0), возвращаем Default -9000.
+
+|[[NBCH_165]]NBCH_165
+|SUM_OVERDUE_LOAN_TO_ALL
+|Отношение суммарной просроченной задолженности по всем микрозаймам к общей сумме выдач.
+|float64
+|Отношение суммарной просроченной задолженности (amtPastDue) по всем микрозаймам (acc_type=16) к общей сумме выдач по ним (creditLimit).
+Результат от деления округлить до 3 знаков.
+Если микрозаймов нет, возвращаем Default -9000
+
+|[[NBCH_167]]NBCH_167
+|RATIO_END_LOAN
+|Доля закрытых микрозаймов среди всех микрозаймов.
+|float64
+|Отношение количества закрытых микрозаймов (acc_type=16 и accountRating = 13) к количеству всех микрозаймов.
+Результат от деления округлить до 3 знаков.
+Если микрозаймов нет, возвращаем Default -9000.
+
+|[[NBCH_168]]NBCH_168
+|RATIO_ACT_LOAN_NO_PAYM
+|Доля активных микрозаймов без платежей среди всех микрозаймов.
+|float64
+|Отношение количества активных микрозаймов без платежа (acc_type=16, accountRating != 13 и currentBalanceAmount = 0) к количеству всех микрозаймов.
+Результат от деления округлить до 3 знаков.
+Если микрозаймов нет, возвращаем Default -9000.
+
+|[[NBCH_169]]NBCH_169
+|RATIO_MFO_ISS_DUE_30DAYS
+|Доля незакрытых микрозаймов взятых в последние 30 дней среди всех микрозаймов взятых в последние 30 дней (по ошибке в ORA скоринге учитывается только 29 дней)
+|float64
+|Отношение количества незакрытых микрозаймов взятых в последние 30 дней (acc_type=16, accountRating != 13 и RegistrationData.applicationCreated - 29 <= openedDate <=  RegistrationData.applicationCreated) к количеству всех микрозаймов взятых в последние 30 дней.
+Результат от деления округлить до 3 знаков.
+Если микрозаймов нет, возвращаем Default -9000.
+
+|[[NBCH_170]]NBCH_170
+|OVER_CRED_WITHOUT_MORTGAGE
+|Просроченная задолженность по всем кредитам кроме ипотек
+|float64
+|Сумма amountPastDue по всем не ипотечным кредитам (acc_type != 3)
+
+|[[NBCH_171]]NBCH_171
+|RATIO_DELAY60_LOAN
+|Доля просроченных микрозаймов со сроком просрочки от 30 до 59 дней среди всех микрозаймов
+|float64
+|Отношение количества просроченных микрозаймов (acc_type=16 и paymentPat содержит символ '2') к количеству всех микрозаймов.
+Результат от деления округлить до 3 знаков.
+Если микрозаймов нет, возвращаем Default -9000.
+
+|[[NBCH_172]]NBCH_172
+|COUNT_PROBLEM_LOAN
+|Количество просроченных и проблемных микрозаймов
+|int64
+|Количество просроченных и проблемных микрозаймов (acc_type=16 и (accountRating = 52 или accountRating = 61 ))
+
+|[[NBCH_173]]NBCH_173
+|COUNT_ACT_LOAN_NO_PAYM
+|Количество активных микрозаймов без платежа
+|int64
+|Количество активных микрозаймов без платежа (acc_type=16, accountRating != 13 и currentBalanceAmount = 0)
+
+|[[NBCH_174]]NBCH_174
+|RATIO_END_LOAN_WITH_DELAY
+|Доля закрытых микрозаймов с просрочкой среди всех микрозаймов.
+|float64
+|Отношение количества закрытых микрозаймов с просрочкой (acc_type=16, accountRating = 13 и первым символом поля paymtPat > 0 или 'А') к количеству всех микрозаймов.
+Результат от деления округлить до 3 знаков.
+Если микрозаймов нет, возвращаем Default -9000.
+
+|[[NBCH_175]]NBCH_175
+|AVG_AMT_MFO_DUE_30DAYS
+|Средняя сумма займов в последние 30 дней (по ошибке в ORA скоринге учитывается только 29 дней)
+|float64
+|Средняя сумма creditLimit по всем микрозаймам взятым за последние 29 дней (acc_type=16 и RegistrationData.applicationCreated - 29 <= openedDate <=  RegistrationData.applicationCreated)
+Если микрозаймов нет, возвращаем 0.
+
+|[[NBCH_176]]NBCH_176
+|CNT_MFO_ISS_DUE_30DAYS
+|Количество незакрытых займов взятых в последние 30 дней (по ошибке в ORA скоринге учитывается только 29 дней)
+|int64
+|Количество незакрытых займов взятых в последние 29 дней (acc_type=16, accountRating != 13, и RegistrationData.applicationCreated - 29 <= openedDate <=  RegistrationData.applicationCreated)
+
+|[[NBCH_177]]NBCH_177
+|RATIO_DELAY30_LOAN
+|Доля просроченных микрозаймов со сроком просрочки от 1 до 29 дней среди всех микрозаймов
+|float64
+|Отношение количества просроченных микрозаймов (acc_type=16 и paymentPat содержит символ 'A') к количеству всех микрозаймов.
+Результат от деления округлить до 3 знаков.
+Если микрозаймов нет, возвращаем Default -9000.
+
+|[[NBCH_178]]NBCH_178
+|RATIO_DELAY_LOAN
+|Доля просроченных микрозаймов.
+|float64
+|Отношение кол-ва просроченных микрозаймов (acc_type=16 и accountRating = 52) к кол-ву всех микрозаймов (acc_type=16).
+Результат от деления округлить до 3 знаков.
+Если микрозаймов нет (cred_id c acc_type=16 равно 0), возвращаем Default -9000.
+
+|[[NBCH_179]]NBCH_179
+|COUNT_1_PAYMENTS_V2
+|Совокупное количество платежей со статусом 1 (своевременные платежи)
+|float64
+|Считаем вхождение цифры 1 в строку paymtPat, затем считаем сумму вхождений по всем строкам
+
+|[[NBCH_180]]NBCH_180
+|COUNT_A_PAYMENTS_V2
+|Совокупное количество платежей со статусом A (просрочка 1 - 29 дней)
+|float64
+|Считаем вхождение символа 'A' в строку paymtPat, затем считаем сумму вхождений по всем строкам
+
+|[[NBCH_181]]NBCH_181
+|COUNT_9_PAYMENTS_V2
+|Совокупное количество платежей со статусом 9 (проблемные кредиты на взыскании)
+|float64
+|Считаем вхождение цифры 9 в строку paymtPat, затем считаем сумму вхождений по всем строкам
+
+|[[NBCH_182]]NBCH_182
+|COUNT_X_PAYMENTS_V2
+|Совокупное количество платежей со статусом X (отсутствуют данные в НБКИ)
+|float64
+|Считаем вхождение символа X в строку paymtPat, затем считаем сумму вхождений по всем строкам
+
+|[[NBCH_183]]NBCH_183
+|COUNT_0_PAYMENTS_V2
+|Совокупное количество платежей со статусом 0 (не настал срок первого платежа)
+|float64
+|Считаем вхождение цифры 0 в строку paymtPat, затем считаем сумму вхождений по всем строкам
+
+|[[NBCH_184]]NBCH_184
+|MAX_SUM_INQ_30_V2
+|Максимальная сумма запроса за последние 0-30 дней
+|float64
+|Наибольшее из факторов NBСH_64,NBСH_65,NBСH_66,NBСH_67, если обращений не было, то значение -100
+
+|[[NBCH_185]]NBCH_185
+|MAX_SUM_INQ_999_V2
+|Максимальная сумма запроса за последние 0- более 365 дней
+|float64
+|Наибольшее из факторов NBСH_64,NBСH_65,NBСH_66,NBСH_67,NBCH_68,NBCH_69,NBCH_70,NBCH_71,NBCH_72. Если обращений не было, то значение -100
+
+|[[NBCH_186]]NBCH_186
+|COUNT_INQ_365_V2
+|Количество запросов за последние 0-365 дней
+|float64
+|Вычисляется как NBCH_81+NBСH_82+NBСH_83+NBCH_84+NBCH_85+NBCH_86+NBCH_87+NBCH_88
+
+|[[NBCH_187]]NBCH_187
+|MIN_SUM_ACTIVE_POTREB_CRED
+|Минимальная сумма среди активных потребительских кредитов без задолженностей
+|float64
+|Минимальная сумма creditLimit среди всех кредитов с (accountType = 9 или accountType = 18 или accountType = 17) и accountRating = 0 и первым символом поля paymtPat = 0 или 1
+
+|[[NBCH_188]]NBCH_188
+|AVG_LOAN_TIME
+|Среднее время закрытия кредита.
+|float64
+|Среднее значение openedDt - accountRatingDate для закрытых кредитов (accountRating = 13).
+Если accountRatingDate = null, то используется lastPaymtDt. Если lastPaymtDt = 1900-01-02, то используется lastUpdatedDt
+
+
+|[[NBCH_189]]NBCH_189
+|FIRST_DELAY_PAY_v2
+|Номер первого платежа вышедшего на просрочку по последнему кредиту
+|float64
+|Ищет номер первого вхождения символов 'A','B','C','2' в реверснутом значении параметра paymtPat. Возвращает максимальное из найденных номеров.
+Если перечисленные символы ни разу не входят в строку, то возвращает 0. Последний кредит вычисляется как в <<NBCH_122,NBCH_122>>
+
+|[[NBCH_190]]NBCH_190
+|COUNT_GOOD_CRED_V2
+|Количество кредитов со статусом не хуже А (просрочка 1 - 29 дней). Учитываются только кредиты с ненулевыми статусами
+|float64
+|Количество всех serialNum, в которых paymtPat содержит "А" и/или "1" и/или "B" и/или "C" и/или "Z"
+
+|[[NBCH_191]]NBCH_191
+|MAX_DELAY_ACTIVE_V2
+|Максимальная допущенная просрочка по действующим займам (кроме закрытых)
+|float64
+a|Выбираем максимальное число из всех строк, где accountRating не равно 13, при этом числа следующие:
+----
+9 - если paymtPat содержит "9"
+8 - если paymtPat содержит "8"
+7 - если paymtPat содержит "7"
+6 - если paymtPat содержит "6"
+5 - если paymtPat содержит "5"
+4 - если paymtPat содержит "4"
+3 - если paymtPat содержит "3"
+2 - если paymtPat содержит "2"
+1 - если paymtPat содержит "A"
+0 - если paymtPat содержит "B" (в ORA число 1 для "B", но в RE сейчас такая реализация)
+0 - если paymtPat содержит "C" (в ORA число 1 для "C", но в RE сейчас такая реализация)
+0 - если paymtPat содержит "1"
+0 - если paymtPat содержит "Z" (в ORA сейчас "Z" не учитывается)
+-1 - если paymtPat содержит "0"
+----
+
+|[[NBCH_192]]NBCH_192
+|MAX_DELAY_ALL
+|Максимальная допущенная просрочка по всем займам
+|float64
+a|Выбираем максимальное число из всех строк:
+----
+9 - если paymtPat содержит "9"
+8 - если paymtPat содержит "8"
+7 - если paymtPat содержит "7"
+6 - если paymtPat содержит "6"
+5 - если paymtPat содержит "5"
+4 - если paymtPat содержит "4"
+3 - если paymtPat содержит "3"
+2 - если paymtPat содержит "2"
+1 - если paymtPat содержит "A"
+0 - если paymtPat содержит "B" (в ORA число 1 для "B", но в RE сейчас такая реализация)
+0 - если paymtPat содержит "C" (в ORA число 1 для "C", но в RE сейчас такая реализация)
+0 - если paymtPat содержит "1"
+0 - если paymtPat содержит "Z" (в ORA сейчас "Z" не учитывается)
+-1 - если paymtPat содержит "0"
+----
+|====================
+
+== Правила расчета агрегированных скор-факторов по нескольким источникам
+
+[width="100%"]
+|====================
+|Название|SQL-название|Описание правила|Тип данных|Описание расчета
+
+|[[AGG_1]]AGG_1
+|K_INCOME
+|Отношение заработка к среднему заработку по региону
+|float64
+|Поле income (45000 если income = null) / поле regionMedianIncome (из RegistrationData)
+
+|[[AGG_2]]AGG_2
+|LAS_TO_MAX_CRED
+|Отношение максимального кредита в КИ НБКИ к запрашиваемой сумме
+|float64
+|Отношение наибольшего значения creditLimit к запрошенной клиентом сумме займа loanAmountRequested
+
+|====================
+
+== Правила расчета скор-факторов по QIWI
+
+[width="100%"]
+|====================
+|Название|SQL-название|Описание правила|Тип данных|Описание расчета
+
+|[[KIWI_1]]KIWI_1
+|KIWI_SCORE
+|Скор-балл Киви
+|float64
+|Поле score из QiwiScoreData
+
+|====================
+== Правила расчета скор-факторов по EQUIFAX
+
+[width="100%"]
+|====================
+|Название|SQL-название|Описание правила|Тип данных|Описание расчета
+
+|[[EQ_SC_1]]EQ_SC_1
+|EQUIFAX_SCORE_V2
+|Скор-балл EQUIFAX
+|float64
+|Поле score из EquifaxScoreData
+
+|====================
+== Правила расчета скор-факторов по BEELINE
+
+[width="100%"]
+|====================
+|Название|SQL-название|Описание правила|Тип данных|Описание расчета
+
+|[[BLN_1]]BLN_1
+|BEELINE_SCORE
+|Скор-балл Beeline
+|float64
+|Поле score из beelineScoreData. Если score > 1, то отнимаем единицу.
+
+|====================
+== Правила расчета скор-факторов по MAIL.RU
+
+[width="100%"]
+|====================
+|Название|SQL-название|Описание правила|Тип данных|Описание расчета
+
+|[[MAIL_1]]MAIL_1
+|MAIL
+|Скор-балл mail.ru
+|float64
+|Поле score из mailScoreData
+
+|====================
+== Правила расчета скор-факторов по НСПК
+
+[width="100%"]
+|====================
+|Название|SQL-название|Описание правила|Тип данных|Описание расчета
+
+|[[NSPK_1]]NSPK_1
+|NSPK_SCORE
+|Скор-балл НСПК
+|float64
+|Поле score из mailScoreData
+
+|====================
+== Правила расчета скор-факторов по НБКИ скор-балл
+
+[width="100%"]
+|====================
+|Название|SQL-название|Описание правила|Тип данных|Описание расчета
+
+|[[NBCH_SC_1]]NBCH_SC_1
+|SCORE_PDL_V2
+|Скор-балл НБКИ
+|float64
+|В модели nbkiScoreData поле score
+
+|====================
+
